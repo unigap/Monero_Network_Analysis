@@ -35,8 +35,7 @@ Execute terminate.sh script to terminate the execution of the main program and s
 ```
 $ sh terminate.sh
 ```
-
- SEED_NODES = https://community.xmr.to/xmr-seed-nodes
+Monero seed nodes: https://community.xmr.to/xmr-seed-nodes
 
 
 
