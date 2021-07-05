@@ -96,3 +96,5 @@ $ ./main 212.83.175.67 18080 10 | python locate.py
 ```
 
 <img src="https://ibb.co/2PS5g1k" alt="Monero nodes around the world - Example of execution">
+<img src="../imgs/map.svg" alt="Monero nodes around the world - Example of execution">
+<img src="../imgs/mapa.png" alt="Monero nodes around the world - Example of execution">
