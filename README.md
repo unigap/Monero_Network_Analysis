@@ -14,7 +14,7 @@
  ```
  * Run:     
  ```
- ./main <IP> <PORT\> <time12>
+ ./main <IP> <PORT> <time12>
  ```
  * IP: monero destination node IP address
  * PORT: natural int, often number 18080
@@ -24,7 +24,7 @@
 Examples:
  Help: 
  ```
- ./main # Displays monero seed nodes to start execution, using one of them 
+ ./main # Displays monero seed nodes to start execution use one of them 
  ```
  Run: 
  ```
