@@ -19,7 +19,8 @@
  * IP: monero destination node IP address
  * PORT: natural int, often number 18080
  * time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
- ! Combine this execution output with the Python program to locate nodes on map (locate.py):
+ 
+ Combine this execution output with the Python program to locate nodes on map (locate.py):
 
 Examples:
  Help: 
