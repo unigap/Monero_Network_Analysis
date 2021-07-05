@@ -9,11 +9,11 @@
      - 4th thread: Wait for 2002 message (recv 2002 notification, count transactions: 500 byte each transaction)                                           -> log2002
 
  * Compile:
- ```
+ ```sh
  gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
  ```
  * Run:     
- ```
+ ```c
  ./main <IP> <PORT> <time12>
  ```
  * IP: monero destination node IP address
