@@ -13,12 +13,18 @@
  * IP: monero destination node IP address
  * PORT: natural int, often number 18080
  * time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
- >>> Combine this execution output with the Python program to locate nodes on map (locate.py):
+ ! Combine this execution output with the Python program to locate nodes on map (locate.py):
 
 Examples:
- Help: ./main # Displays monero seed nodes to start execution, using one of them
- Run:  ./main 212.83.175.67 18080 10 | python locate.py # 10 seg collecting nodes (locating them on map) and then receiving transactions from available nodes
-SEED_NODES = https://community.xmr.to/xmr-seed-nodes
+ Help: 
+ ```
+ ./main # Displays monero seed nodes to start execution, using one of them 
+ ```
+ Run: 
+ ```
+ ./main 212.83.175.67 18080 10 | python locate.py # 10 seg collecting nodes (locating them on map) and then receiving transactions from available nodes
+```
+ SEED_NODES = https://community.xmr.to/xmr-seed-nodes
 
 
 
