@@ -9,13 +9,13 @@
      - 4th thread: Wait for 2002 message (recv 2002 notification, count transactions: 500 byte each transaction)                                           -> ```log2002```
 
  * Compile:
- ```
- gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
- ```
+```
+$ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
+```
  * Run:     
- ```
- ./main <IP> <PORT> <time12>
- ```
+```
+$ ./main <IP> <PORT> <time12>
+```
  * IP: destination monero node IP address
  * PORT: natural int, often number 18080
  * time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
@@ -24,13 +24,19 @@
 
 Examples:
  Help: 
- ```
- ./main # Displays monero seed nodes to start execution use one of them 
+```
+$ ./main # Displays monero seed nodes to start execution use one of them 
  ```
  Run: 
- ```
- ./main 212.83.175.67 18080 10 | python locate.py # 10 seg collecting nodes (locating them on map) and then receiving transactions from available nodes
 ```
+$ ./main 212.83.175.67 18080 10 | python locate.py # 10 seg collecting nodes (locating them on map) and then receiving transactions from available nodes
+```
+
+Execute terminate.sh script to terminate the execution of the main program and send quit method to Python program:
+```
+$ sh terminate.sh
+```
+
  SEED_NODES = https://community.xmr.to/xmr-seed-nodes
 
 
