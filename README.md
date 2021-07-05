@@ -25,7 +25,7 @@ $ ./main <IP> <PORT> <time12>
 Examples:
  Help: 
 ```
-$ ./main # Displays monero seed nodes to start execution use one of them 
+$ ./main # Displays monero seed nodes to start execution use one of them (help message)
  ```
  Run: 
 ```
@@ -54,7 +54,7 @@ $ sudo apt-get install geoip-bin
 $ git clone https://github.com/unigap/Monero_Network_Analysis
 $ cd Monero_Network_Analysis/src/
 $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
-$ ./main 
+$ ./main # get the help message
 ```
 Output:
 ```
