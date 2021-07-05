@@ -3,7 +3,7 @@
 
  Execution of this program initializes monero peer-to-peer network analisys:
  *   Main thread: This thread initialize all threads and catch two signals: ```SIGINT``` and ```SIGTERM``` -> write ```logbst``` file (nodes info).
-     - 1st thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree. -> ```log1001```
+     - 1<sup>st</sup> thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree. -> ```log1001```
      - 2nd thread: Check with 1003 message if each node still available. If not response is received, then node will be removed from map.                  -> ```log1003```
      - 3rd thread: Get coordenates of each node and print them on standard output (to comunicate by pipe with the other program: ```locate.py```)                -> ```logmap```
      - 4th thread: Wait for 2002 message (recv 2002 notification, count transactions: 500 byte each transaction)                                           -> ```log2002```
