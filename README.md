@@ -94,3 +94,5 @@ And finally, combine the execution of both programs:
 ```
 $ ./main 212.83.175.67 18080 10 | python locate.py
 ```
+
+<img src="https://ibb.co/2PS5g1k" alt="Monero nodes around the world - Example of execution">
