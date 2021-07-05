@@ -1,0 +1,141 @@
+
+Creating socket... 	 Destination node: 212.83.175.67 18080
+Socket descriptor: 8
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 15494 (10), 3c86 (16)		 '212.83.175.67' temporary file.
+
+Creating socket... 	 Destination node: 95.117.164.231 18080
+Socket descriptor: 7
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 15700 (10), 3d54 (16)		 '95.117.164.231' temporary file.
+
+Creating socket... 	 Destination node: 51.15.18.243 18080
+Socket descriptor: 7
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 15577 (10), 3cd9 (16)		 '51.15.18.243' temporary file.
+
+Creating socket... 	 Destination node: 24.211.5.120 18080
+Socket descriptor: 7
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 15653 (10), 3d25 (16)		 '24.211.5.120' temporary file.
+
+Creating socket... 	 Destination node: 3.239.98.117 18080
+Socket descriptor: 7
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 773 (10), 305 (16)		 '3.239.98.117' temporary file.
+
+Creating socket... 	 Destination node: 3.8.16.228 18080
+Socket descriptor: 7
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 14646 (10), 3936 (16)		 '3.8.16.228' temporary file.
+
+Creating socket... 	 Destination node: 1.15.64.2 18080
+Socket descriptor: 7
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 14703 (10), 396f (16)		 '1.15.64.2' temporary file.
+
+Creating socket... 	 Destination node: 1.15.60.121 18080
+Socket descriptor: 7
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 14535 (10), 38c7 (16)		 '1.15.60.121' temporary file.
+
+Creating socket... 	 Destination node: 2.205.127.140 18080
+Socket descriptor: 8
+Port binded		Couldn't connect: -5
+[1m[31mError: 3
+[0m
+Creating socket... 	 Destination node: 2.12.78.124 18080
+Socket descriptor: 8
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 14911 (10), 3a3f (16)		 '2.12.78.124' temporary file.
+
+Creating socket... 	 Destination node: 2.12.171.61 18080
+Socket descriptor: 8
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+Couldn't receive 1007 message (recvfrom length: 0): Success 
+[1m[31mError: 6
+[0m
+Creating socket... 	 Destination node: 3.239.31.7 27910
+Socket descriptor: 8
+Port binded		Couldn't connect: -5
+[1m[31mError: 3
+[0m
+Creating socket... 	 Destination node: 3.93.37.167 18080
+Socket descriptor: 8
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 15035 (10), 3abb (16)		 '3.93.37.167' temporary file.
+
+Creating socket... 	 Destination node: 3.9.38.10 18080
+Socket descriptor: 8
+Port binded		Couldn't connect: -4
+[1m[31mError: 3
+[0m
+Creating socket... 	 Destination node: 3.93.33.238 18080
+Socket descriptor: 8
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 14950 (10), 3a66 (16)		 '3.93.33.238' temporary file.
+
+Creating socket... 	 Destination node: 3.235.132.160 18080
+Socket descriptor: 8
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 15143 (10), 3b27 (16)		 '3.235.132.160' temporary file.
+
+Creating socket... 	 Destination node: 3.219.35.221 18080
+Socket descriptor: 8
+Port binded		 Connected
+1001 request header sent		 Packet length: 33 (10),    21 (16).
+1001 request data sent 			 Packet length: 226 (10),   e2 (16).
+1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+1001 response header received 		 Packet length: 33 (10),    21 (16).
+Receiving 1001 response data... 	 Packet length: 15014 (10), 3aa6 (16)		 '3.219.35.221' temporary file.
+TERMINATED

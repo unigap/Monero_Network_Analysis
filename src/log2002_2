@@ -1,0 +1,640 @@
+=========
+Prozesuaren emaitza fitxategia: 3.238.103.165_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 3.238.103.165:18080  Data length: 10 
+1001 message received from 3.238.103.165:18080  Data length: 14982 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 5.189.171.193_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 5.189.171.193:18080  Data length: 10 
+1001 message received from 5.189.171.193:18080  Data length: 15660 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 5.196.124.241_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -4
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 14.105.104.165_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 14.105.104.165:18080  Data length: 10 
+1001 message received from 14.105.104.165:18080  Data length: 15657 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 13.239.26.243_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -1
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 18.169.212.248_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 18.169.212.248:18080  Data length: 10 
+1001 message received from 18.169.212.248:18080  Data length: 15737 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.16.42.192_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.16.42.192:18080  Data length: 10 
+1001 message received from 24.16.42.192:18080  Data length: 15744 
+2002 message received from 24.16.42.192:18080  Data length: 3447 
+2002 message received from 24.16.42.192:18080      tkop: 6
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 23.237.156.42_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 23.124.170.131_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 23.124.170.131:18080  Data length: 10 
+1001 message received from 23.124.170.131:18080  Data length: 15736 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 23.124.76.209_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 23.124.76.209:18080  Data length: 10 
+1001 message received from 23.124.76.209:18080  Data length: 14938 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 23.125.251.144_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 23.125.251.144:18080  Data length: 10 
+1001 message received from 23.125.251.144:18080  Data length: 15613 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 23.166.226.34_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 23.166.226.34:18080  Data length: 10 
+1001 message received from 23.166.226.34:18080  Data length: 16186 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.12.248.166_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.12.248.166:18080  Data length: 10 
+1001 message received from 24.12.248.166:18080  Data length: 14891 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.5.235.114_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.5.235.114:18080  Data length: 10 
+1001 message received from 24.5.235.114:18080  Data length: 15913 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.5.19.144_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.5.19.144:18080  Data length: 10 
+1001 message received from 24.5.19.144:18080  Data length: 15891 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.4.90.2_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.4.90.2:18080  Data length: 10 
+1001 message received from 24.4.90.2:18080  Data length: 16073 
+2001 message received from 24.4.90.2:18080  Data length: 110091 
+2002 message received from 24.4.90.2:18080  Data length: 9451 
+2002 message received from 24.4.90.2:18080      tkop: 18
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.5.174.218_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.6.17.164_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.10.242.14_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.10.73.125_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.10.73.125:18080  Data length: 10 
+1001 message received from 24.10.73.125:18080  Data length: 14936 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.8.58.231_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -4
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.10.95.70_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.10.95.70:18080  Data length: 10 
+1001 message received from 24.10.95.70:18080  Data length: 14848 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.15.74.24_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.15.74.24:18080  Data length: 10 
+1001 message received from 24.15.74.24:18080  Data length: 14723 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.184.148.191_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.184.148.191:18080  Data length: 10 
+1001 message received from 24.184.148.191:18080  Data length: 15897 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.159.48.177_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.159.48.177:18080  Data length: 10 
+1001 message received from 24.159.48.177:18080  Data length: 15591 
+1002 message received from 24.159.48.177:18080  Data length: 172 
+2002 message received from 24.159.48.177:18080  Data length: 3455 
+2002 message received from 24.159.48.177:18080      tkop: 6
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.90.100.251_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.62.170.195_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.61.243.163_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -1
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.84.229.27_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.84.229.27:18080  Data length: 10 
+1001 message received from 24.84.229.27:18080  Data length: 15874 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.96.67.67_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.96.67.67:18080  Data length: 10 
+1001 message received from 24.96.67.67:18080  Data length: 15000 
+1002 message received from 24.96.67.67:18080  Data length: 172 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.101.152.121_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.99.187.183_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.112.245.68_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.134.143.85_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.134.143.85:18080  Data length: 10 
+1001 message received from 24.134.143.85:18080  Data length: 15661 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.161.3.191_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.203.81.236_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.203.81.236:18080  Data length: 10 
+1001 message received from 24.203.81.236:18080  Data length: 15067 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.205.86.51_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 44.193.73.160_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 44.193.73.160:18080  Data length: 10 
+1001 message received from 44.193.73.160:18080  Data length: 15178 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 31.210.173.79_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 31.210.173.79:18080  Data length: 10 
+1001 message received from 31.210.173.79:18080  Data length: 15014 
+1002 message received from 31.210.173.79:18080  Data length: 172 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.225.222.251_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.211.237.7_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.235.138.200_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -1
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.228.80.124_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 24.228.80.124:18080  Data length: 10 
+1001 message received from 24.228.80.124:18080  Data length: 14951 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 24.253.139.225_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -1
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.247.191.142_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 24.254.193.171_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 31.20.225.30_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 31.20.225.30:18080  Data length: 10 
+1001 message received from 31.20.225.30:18080  Data length: 15921 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 27.19.79.175_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 27.33.139.224_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 27.33.139.224:18080  Data length: 10 
+1001 message received from 27.33.139.224:18080  Data length: 15872 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 31.28.25.99_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 35.142.222.141_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 35.142.222.141:18080  Data length: 10 
+1001 message received from 35.142.222.141:18080  Data length: 15801 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 34.239.173.244_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 34.239.173.244:18080  Data length: 10 
+1001 message received from 34.239.173.244:18080  Data length: 15401 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 34.207.231.7_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 34.236.254.151_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 34.236.254.151:18080  Data length: 10 
+1001 message received from 34.236.254.151:18080  Data length: 14884 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 34.252.230.14_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 35.139.242.243_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -4
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 35.170.197.157_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 35.170.197.157:18080  Data length: 10 
+1001 message received from 35.170.197.157:18080  Data length: 15049 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 35.229.149.89_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 35.229.149.89:18080  Data length: 10 
+1001 message received from 35.229.149.89:18080  Data length: 15825 
+2002 message received from 35.229.149.89:18080  Data length: 2936 
+2002 message received from 35.229.149.89:18080      tkop: 8
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 35.177.161.171_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 35.177.161.171:18080  Data length: 10 
+1001 message received from 35.177.161.171:18080  Data length: 16033 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 42.226.89.15_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 42.226.89.15:18080  Data length: 10 
+1001 message received from 42.226.89.15:18080  Data length: 15813 
+1002 message received from 42.226.89.15:18080  Data length: 172 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.191.194.220_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 37.191.194.220:18080  Data length: 10 
+1001 message received from 37.191.194.220:18080  Data length: 15423 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.187.191.128_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 37.187.191.128:13221  Data length: 15245 
+1003 message received from 37.187.191.128:13221  Data length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.10.71.148_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 37.10.71.148:8087  Data length: 10 
+1001 message received from 37.10.71.148:8087  Data length: 15783 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.1.207.149_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 37.1.207.149:18080  Data length: 10 
+1001 message received from 37.1.207.149:18080  Data length: 15921 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.59.44.25_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 37.59.44.25:18080  Data length: 10 
+1001 message received from 37.59.44.25:18080  Data length: 15956 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.14.121.48_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 37.153.1.231_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 37.153.1.231:18080  Data length: 10 
+1001 message received from 37.153.1.231:18080  Data length: 15923 
+2002 message received from 37.153.1.231:18080  Data length: 3448 
+2002 message received from 37.153.1.231:18080      tkop: 6
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.120.213.195_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -4
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 37.120.165.105_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 37.120.165.105:18080  Data length: 10 
+1001 message received from 37.120.165.105:18080  Data length: 15135 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.59.165.233_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 37.59.165.233:8319  Data length: 15219 
+1003 message received from 37.59.165.233:8319  Data length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.59.165.233_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 37.59.165.233:8509  Data length: 15167 
+1003 message received from 37.59.165.233:8509  Data length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.59.165.233_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 37.59.165.233:15887  Data length: 15089 
+1003 message received from 37.59.165.233:15887  Data length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.187.191.128_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 37.187.191.128:10660  Data length: 15128 
+1003 message received from 37.187.191.128:10660  Data length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 41.140.31.44_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 39.105.109.243_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 39.105.109.243:18080  Data length: 10 
+1001 message received from 39.105.109.243:18080  Data length: 15230 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.194.223.122_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 37.193.199.228_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.221.195.178_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 37.221.195.178:18080  Data length: 10 
+1001 message received from 37.221.195.178:18080  Data length: 15831 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 37.195.59.133_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 37.195.59.133:18080  Data length: 10 
+1001 message received from 37.195.59.133:18080  Data length: 15848 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 38.88.160.70_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 38.88.160.70:18080  Data length: 10 
+1001 message received from 38.88.160.70:18080  Data length: 15930 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 41.190.138.243_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 41.249.154.38_2002_2
+Socket descriptor: 42
+Port binded		Couldn't connect: -5
+[1m[31mErrorea 2. harian: 5
+[0mProzesuaren emaitza fitxategia: 43.245.196.51_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 43.245.196.51:18080  Data length: 10 
+1001 message received from 43.245.196.51:18080  Data length: 15970 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 43.129.6.30_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 44.192.6.45_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 44.192.6.45:18080  Data length: 10 
+1001 message received from 44.192.6.45:18080  Data length: 15125 
+2001 message received from 44.192.6.45:18080  Data length: 77600 
+Couldn't receive message, length: 0  err: Success
+[1m[31mErrorea 2. harian: 10
+[0mProzesuaren emaitza fitxategia: 43.245.196.68_2002_2
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 43.245.196.68:18080  Data length: 10 
+1001 message received from 43.245.196.68:18080  Data length: 15620 
