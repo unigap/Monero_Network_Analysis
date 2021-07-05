@@ -95,6 +95,6 @@ And finally, combine the execution of both programs:
 $ ./main 212.83.175.67 18080 10 | python locate.py
 ```
 
-<img src="..//main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution">
-<!--<img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution">-->
+<img src="..//main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 1">
+<img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 2">
 
