@@ -16,7 +16,7 @@
  ```
  ./main <IP> <PORT> <time12>
  ```
- * IP: monero destination node IP address
+ * IP: destination monero node IP address
  * PORT: natural int, often number 18080
  * time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
  
