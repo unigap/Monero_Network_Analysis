@@ -9,13 +9,13 @@
      - 4th thread: Wait for 2002 message (recv 2002 notification, count transactions: 500 byte each transaction)                                           -> log2002
 
  * Compile:
- 
+ ```
  gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
- 
+ ```
  * Run:     
- 
- ./main <IP> <PORT> <time12>
- 
+ ```
+ ./main <IP> <PORT\> <time12>
+ ```
  * IP: monero destination node IP address
  * PORT: natural int, often number 18080
  * time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
