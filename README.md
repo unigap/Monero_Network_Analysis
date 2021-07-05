@@ -3,10 +3,10 @@
 
  Execution of this program initializes monero peer-to-peer network analisys:
  *   Main thread: This thread initialize all threads and catch two signals: ```SIGINT``` and ```SIGTERM``` -> write ```logbst``` file (nodes info).
-     - 1st thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree. -> log1001
-     - 2nd thread: Check with 1003 message if each node still available. If not response is received, then node will be removed from map.                  -> log1003
+     - 1st thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree. -> ```log1001```
+     - 2nd thread: Check with 1003 message if each node still available. If not response is received, then node will be removed from map.                  -> ```log1003```
      - 3rd thread: Get coordenates of each node and print them on standard output (to comunicate by pipe with the other program: ```locate.py```)                -> ```logmap```
-     - 4th thread: Wait for 2002 message (recv 2002 notification, count transactions: 500 byte each transaction)                                           -> log2002
+     - 4th thread: Wait for 2002 message (recv 2002 notification, count transactions: 500 byte each transaction)                                           -> ```log2002```
 
  * Compile:
  ```
@@ -63,7 +63,7 @@ Destination node can be selected from the following Monero seed-nodes list:
   - 212.83.172.165 18080
   - 212.83.175.67 18080
 ```
-We next install dependencies for the python program
+We next install dependencies for the python program:
 ```
 $ sudo apt-get install python3-pip
 $ pip3 install numpy
@@ -82,4 +82,9 @@ Now you can test the python program
 ```
 $ python3 locate.py
 $ python3 locate.py 0.5
+```
+
+And finally, combine the execution of both programs:
+```
+$ ./main 212.83.175.67 18080 10 | python locate.py
 ```
