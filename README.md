@@ -6,6 +6,7 @@
   - [Introduction](#introduction)
   - [Educational project using Levin protocol](#educational-project-using-levin-protocol)
   - [Dependencies](#dependencies)
+  - [Log files](#log-files)
   - [Output images](#output-images)
   - [Related sites](#related-sites)
 
@@ -87,9 +88,6 @@ $ git clone https://github.com/unigap/Monero_Network_Analysis
 $ cd Monero_Network_Analysis/src/
 $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
 $ ./main # print help message
-<!--```
-Output:
-```-->
 Destination IP, port and time limit for requests (seg) are necessary to initialize the execution!
 Destination node can be selected from the following Monero seed-nodes list: 
   - 66.85.74.134 18080
@@ -101,7 +99,7 @@ Destination node can be selected from the following Monero seed-nodes list:
   - 212.83.172.165 18080
   - 212.83.175.67 18080
 ```
-Next we will install dependencies for the python program:
+Next we will install dependencies for the Python program:
 ```
 $ sudo apt-get install python3-pip
 $ pip3 install numpy
@@ -114,7 +112,7 @@ $ pip3 install --upgrade pip
 $ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip
 ```
 
-Now you can test the python program ```locate.py```
+Now you can test the Python program ```locate.py```
 
 ```
 $ python3 locate.py
@@ -125,6 +123,9 @@ Finally, combine the execution of both programs with <b>pipe</b>:
 ```
 $ ./main 212.83.175.67 18080 10 | python locate.py
 ```
+
+## Log files
+
 
 
 ## Output images
