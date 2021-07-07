@@ -75,10 +75,10 @@ $ sudo apt-get install geoip-bin
 $ git clone https://github.com/unigap/Monero_Network_Analysis
 $ cd Monero_Network_Analysis/src/
 $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
-$ ./main # get the help message
-```
+$ ./main # print help message
+<!--```
 Output:
-```
+```-->
 Destination IP, port and time limit for requests (seg) are necessary to initialize the execution!
 Destination node can be selected from the following Monero seed-nodes list: 
   - 66.85.74.134 18080
