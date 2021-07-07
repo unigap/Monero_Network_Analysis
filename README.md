@@ -40,7 +40,7 @@ See also the documentation of the application level protocol that allows <b>peer
      - 3<sup>rd</sup> thread: Get coordenates of each node and print them on standard output (to comunicate by pipe with the other program (```locate.py```)
      
        Record events ⟶ ```logmap``` file
-     - 4<sup>th</sup> thread: Wait for 2002 message (recv 2002 notification, "count" transactions + sec.fact.: 500 byte each transaction)
+     - 4<sup>th</sup> thread: Wait for 2002 message (recv 2002 notification, "count" transactions + sec. factor: 500 byte each transaction)
      
        Record events ⟶ ```log2002``` file
 
