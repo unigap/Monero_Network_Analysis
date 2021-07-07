@@ -26,6 +26,11 @@ See also the documentation of the application level protocol that allows **peer-
 
 ## Educational project using Levin Protocol
 
+The first step was to execute ```monerod``` and check the TCP communication with ```tcpflow``` and ```hexdump``` like we can test with the scripts on the folder levin_process 
+
+
+### Main program (C)
+
  Execution of this program initializes **monero peer-to-peer network analisys**:
  *   Main thread: Initialization of all threads and catch two signals due to exit: ```SIGINT``` and ```SIGTERM```
 
@@ -58,9 +63,11 @@ $ ./main <IP> <PORT> <time12>
 > * PORT: natural int, often number 18080
 > * time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
  
- Combine this execution output with the Python program to locate nodes on map (```locate.py```).
+### Secondary program (Python)
 
- Examples: 
+Combine this execution output with the Python program to locate nodes on map (```locate.py```).
+
+Examples: 
 ```
 $ ./main    # Print help message
 Destination IP, port and time limit for requests (seg) are necessary to initialize the execution!
