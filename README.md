@@ -59,14 +59,6 @@ Execute terminate.sh script to terminate the execution of the main program and s
 $ sh terminate.sh
 ```
 
-[Monero Github project](https://github.com/monero-project/monero)
-
-[Monero seed nodes](https://community.xmr.to/xmr-seed-nodes)
-
-[Monerodocs](https://monerodocs.org/)
-
-[MoneroWorld](https://moneroworld.com/)
-
 
 <h2><b> Dependencies: </b></h2>
 
@@ -107,11 +99,10 @@ $ sudo apt-get install python3-gi-cairo
 $ pip3 install Cython
 $ pip3 install --upgrade pip
 $ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip
-
-
-
 ```
-Now you can test the python program
+
+Now you can test the python program ```locate.py```
+
 ```
 $ python3 locate.py
 $ python3 locate.py 0.5
@@ -122,6 +113,21 @@ Finally, combine the execution of both programs with <b>pipe</b>:
 $ ./main 212.83.175.67 18080 10 | python locate.py
 ```
 
-<img src="..//main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 1">
+<h2>Output images</h2>
+
+<img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 1">
 <img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 2">
+
+
+<h2>Relationated sites</h2>
+
+[GetMonero](https://www.getmonero.org/)
+
+[Monero Github project](https://github.com/monero-project/monero)
+
+[Monero seed nodes](https://community.xmr.to/xmr-seed-nodes)
+
+[Monerodocs](https://monerodocs.org/)
+
+[MoneroWorld](https://moneroworld.com/)
 
