@@ -5,6 +5,10 @@
 
   - [Introduction](#introduction)
   - [Educational project using Levin protocol](#educational-project-using-levin-protocol)
+    - [Reverse engineering](#reverse-engineering)
+    - [Main program (C)](#main-program-c)
+    - [Secondary program (Python)](#secondary-program-python)
+    - [Execute both using pipe](#execute-both-using-pipe)
   - [Dependencies](#dependencies)
   - [Log files](#log-files)
   - [Output images](#output-images)
