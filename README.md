@@ -2,11 +2,16 @@
 <h2><b> This is a educational project </b></h2>
 
  Execution of this program initializes <b>monero peer-to-peer network analisys</b>:
- *   Main thread: This thread initialize all threads and catch two signals: ```SIGINT``` and ```SIGTERM``` ⟶ write ```logbst``` file (nodes info).
-     - 1<sup>st</sup> thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree. ⟶ ```log1001```
-     - 2<sup>nd</sup> thread: Check with 1003 message if each node still available. If not response is received, then node will be removed from map.                  ⟶ ```log1003```
-     - 3<sup>rd</sup> thread: Get coordenates of each node and print them on standard output (to comunicate by pipe with the other program (```locate.py```)                ⟶ ```logmap```
-     - 4<sup>th</sup> thread: Wait for 2002 message (recv 2002 notification, count transactions: 500 byte each transaction)                                           ⟶ ```log2002```
+ *   Main thread: This thread initialize all threads and catch two signals: ```SIGINT``` and ```SIGTERM``` 
+     Monero node list (binary search tree) ⟶ ```logbst``` file (info of each node).
+     - 1<sup>st</sup> thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree.
+       Record events ⟶ ```log1001``` file
+     - 2<sup>nd</sup> thread: Check with 1003 message if each node still available. If not response is received, then node will be removed from map.
+       Record events ⟶ ```log1003``` file
+     - 3<sup>rd</sup> thread: Get coordenates of each node and print them on standard output (to comunicate by pipe with the other program (```locate.py```)
+       Record events ⟶ ```logmap``` file
+     - 4<sup>th</sup> thread: Wait for 2002 message (recv 2002 notification, count transactions: 500 byte each transaction)
+       Record events ⟶ ```log2002``` file
 
  * Compile:
 ```
