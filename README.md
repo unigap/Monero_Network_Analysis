@@ -53,9 +53,9 @@ $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o 
 $ ./main <IP> <PORT> <time12>
 ```
 
-   >  · IP: destination monero node IP address
-   >  · PORT: natural int, often number 18080
-   >  · time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
+  > * <IP>: destination monero node IP address
+  > * <PORT>: natural int, often number 18080
+  > * <time12>: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
  
  Combine this execution output with the Python program to locate nodes on map (```locate.py```):
 
