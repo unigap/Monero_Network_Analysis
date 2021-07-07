@@ -7,7 +7,7 @@
      When one of those signal is received (also executing ```terminate.sh```), program writes Monero node list (binary search tree) ⟶ ```logbst``` file (info of each node) and terminate.
      
      - 1<sup>st</sup> thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree.
-       Record events ⟶ ```log1001``` file
+        Record events ⟶ ```log1001``` file
      - 2<sup>nd</sup> thread: Check with 1003 message if each node still available. If not response is received, then node will be removed from map.
      
        Record events ⟶ ```log1003``` file
