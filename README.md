@@ -2,9 +2,9 @@
 <h2><b> This is a educational project </b></h2>
 
  Execution of this program initializes <b>monero peer-to-peer network analisys</b>:
- *   Main thread: This thread initialize all threads and catch two signals: ```SIGINT``` and ```SIGTERM```
+ *   Main thread: This thread initialize all threads and catch two signals due to exit: ```SIGINT``` and ```SIGTERM```
 
-     When one of those signal is received, program writes Monero node list (binary search tree) ⟶ ```logbst``` file (info of each node).
+     When one of those signal is received (also executing ```terminate.sh```) before terminate the execution, program writes Monero node list (binary search tree) ⟶ ```logbst``` file (info of each node).
      
      - 1<sup>st</sup> thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree.
        Record events ⟶ ```log1001``` file
@@ -26,9 +26,9 @@ $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o 
 ```
 $ ./main <IP> <PORT> <time12>
 ```
-   - IP: destination monero node IP address
-   - PORT: natural int, often number 18080
-   - time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
+     - IP: destination monero node IP address
+     - PORT: natural int, often number 18080
+     - time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
  
  Combine this execution output with the Python program to locate nodes on map (```locate.py```):
 
