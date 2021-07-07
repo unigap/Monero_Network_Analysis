@@ -2,7 +2,8 @@
 <h2><b> This is a educational project </b></h2>
 
  Execution of this program initializes <b>monero peer-to-peer network analisys</b>:
- *   Main thread: This thread initialize all threads and catch two signals: ```SIGINT``` and ```SIGTERM``` 
+ *   Main thread: This thread initialize all threads and catch two signals: ```SIGINT``` and ```SIGTERM```
+
      Monero node list (binary search tree) ⟶ ```logbst``` file (info of each node).
      - 1<sup>st</sup> thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree.
        Record events ⟶ ```log1001``` file
