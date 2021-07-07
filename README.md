@@ -4,10 +4,11 @@
 
 [What is Monero?](https://www.getmonero.org/get-started/what-is-monero/)
 
-It's a open-source cryptocurrency project focused on private and censorship-resistant transactions. That is because Monero uses various privacy-enhancing technologies to hide blockchain's information and ensure the anonymity of its users.
-    
+It's a open-source cryptocurrency project focused on private and censorship-resistant transactions. That is because Monero uses various privacy-enhancing technologies to hide information of the blockchain and ensure the anonymity of its users.
 
+See more about Monero: [Moneropedia](https://www.getmonero.org/resources/moneropedia/)
 
+Inspect also application level protocol that allows P2P communication between Monero nodes: [Levin protocol](https://github.com/monero-project/monero/blob/master/docs/LEVIN_PROTOCOL.md)
 
 <h2><b> This is a educational project </b></h2>
 
