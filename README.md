@@ -96,18 +96,4 @@ $ ./main 212.83.175.67 18080 10 | python locate.py
 <img src="..//main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 1">
 <img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 2">
 
-
-<svg width="0" height="100">
-
-    <defs>
-        <marker id="arrow" markerWidth="13" markerHeight="13" refx="2" refy="6" orient="auto">
-            <path d="M2,2 L2,11 L10,6 L2,2" style="fill:black;" />
-        </marker>
-    </defs>
-
-    <path d="M30,150 L100,50"
-          style="stroke:black; stroke-width: 1.25px; fill: none;
-                 marker-end: url(#arrow);"
-    />
-
-</svg>
+&#8594;
