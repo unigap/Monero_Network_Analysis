@@ -26,7 +26,16 @@ See also the documentation of the application level protocol that allows **peer-
 
 ## Educational project using Levin Protocol
 
-The first step was to execute ```monerod``` and check the TCP communication with ```tcpflow``` and ```hexdump``` like we can test with the scripts on the folder levin_process 
+With this project I intend to analyze Monero P2P network; cryptocurrency and privacy techniques, network programming and application layer protocols. Moreover, I want to contribute in the general knowledge about Monero and its great characteristics.
+
+### Reverse engineering
+
+The first step was to execute ```monerod``` and check the TCP communication with ```tcpflow``` and ```hexdump``` as executing the scripts on the folder called extract_levin_communication:
+
+Example:
+```
+sh hasi.sh 90 eth0
+```
 
 
 ### Main program (C)
@@ -64,6 +73,11 @@ $ ./main <IP> <PORT> <time12>
 > * time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
  
 ### Secondary program (Python)
+
+```locate.py``` program
+
+
+### Execute both using pipe
 
 Combine this execution output with the Python program to locate nodes on map (```locate.py```).
 
