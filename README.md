@@ -74,10 +74,11 @@ Destination node can be selected from the following Monero seed-nodes list:
   - 212.83.172.165 18080
   - 212.83.175.67 18080
   
-$ ./main 212.83.175.67 18080 10 | python locate.py    # 10 seconds collecting nodes (locating them on map) and then receiving transactions from available nodes
+$ ./main 212.83.175.67 18080 10 | python locate.py    # 10 seconds collecting nodes from Monero P2P network + locating them on map
+                                                      # and then receive transactions from available nodes  + locating them on map
 ```
 
-Execute terminate.sh script to terminate the execution of the main program and send quit method to Python program:
+Execute ```terminate.sh``` script to terminate the execution of the main program and send quit method to Python program:
 ```
 $ sh terminate.sh
 ```
