@@ -113,7 +113,7 @@ $ sh terminate.sh
 
 This project is tested on Ubuntu and Debian
 
-To install all dependencies and start the execution you can follow this guide:
+To install all dependencies and start the execution you can follow these steps:
 
 ```
 $ sudo apt-get install git
@@ -125,6 +125,7 @@ $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o 
 ```
 
 Next we will install dependencies for the Python program:
+
 ```
 $ sudo apt-get install python3-pip
 $ pip3 install numpy
@@ -137,7 +138,7 @@ $ pip3 install --upgrade pip
 $ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip
 ```
 
-Now you can test the Python program ```locate.py```
+Now you can test the Python program ```locate.py```:
 
 ```
 $ python3 locate.py
