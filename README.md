@@ -10,7 +10,8 @@ Learn more about Monero: [Moneropedia](https://www.getmonero.org/resources/moner
 
 See also the documentation of the application level protocol that allows <b>peer-to-peer</b> communication between Monero nodes: [Levin protocol](https://github.com/monero-project/monero/blob/master/docs/LEVIN_PROTOCOL.md)
 
-<h2><b> This is an educational project using Levin protocol</b></h2>
+
+## This is an educational project using Levin protocol
 
  Execution of this program initializes <b>monero peer-to-peer network analisys</b>:
  *   Main thread: Initialization of all threads and catch two signals due to exit: ```SIGINT``` and ```SIGTERM```
@@ -26,7 +27,7 @@ See also the documentation of the application level protocol that allows <b>peer
      - 3<sup>rd</sup> thread: Get coordenates of each node and print them on standard output (to comunicate by pipe with the other program (```locate.py```)
      
        Record events ⟶ ```logmap``` file
-     - 4<sup>th</sup> thread: Wait for 2002 message (recv 2002 notification, count transactions: 500 byte each transaction)
+     - 4<sup>th</sup> thread: Wait for 2002 message (recv 2002 notification, "count" transactions + sec.fact.: 500 byte each transaction)
      
        Record events ⟶ ```log2002``` file
 
@@ -60,7 +61,7 @@ $ sh terminate.sh
 ```
 
 
-<h2><b> Dependencies: </b></h2>
+## Dependencies
 
 This project is tested on Ubuntu and Debian
 
@@ -113,15 +114,16 @@ Finally, combine the execution of both programs with <b>pipe</b>:
 $ ./main 212.83.175.67 18080 10 | python locate.py
 ```
 
-<h2>Output images</h2>
+
+## Output images
 
 <img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 1">
 <img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 2">
 
 
-<h2>Relationated sites</h2>
+## Related sites
 
-[GetMonero](https://www.getmonero.org/)
+[Monero](https://www.getmonero.org/)
 
 [Monero Github project](https://github.com/monero-project/monero)
 
@@ -130,4 +132,5 @@ $ ./main 212.83.175.67 18080 10 | python locate.py
 [Monerodocs](https://monerodocs.org/)
 
 [MoneroWorld](https://moneroworld.com/)
+
 
