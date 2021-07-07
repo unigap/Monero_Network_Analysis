@@ -5,6 +5,7 @@
 
   - [Introduction](#introduction)
   - [Educational project using Levin protocol](#educational-project-using-levin-protocol)
+  - [Dependencies](#dependencies)
   - [Output images](#output-images)
   - [Related sites](#related-sites)
 
