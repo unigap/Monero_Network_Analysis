@@ -1,4 +1,14 @@
 # Monero Network Analysis
+
+<h4>Monero, a digital currency that is secure, private, and untraceable.</h4>
+
+[What is Monero?](https://www.getmonero.org/get-started/what-is-monero/)
+
+It's a open-source cryptocurrency project focused on private and censorship-resistant transactions. That is because Monero uses various privacy-enhancing technologies to hide blockchain's information and ensure the anonymity of its users.
+    
+
+
+
 <h2><b> This is a educational project </b></h2>
 
  Execution of this program initializes <b>monero peer-to-peer network analisys</b>:
