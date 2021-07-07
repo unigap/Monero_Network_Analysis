@@ -21,12 +21,12 @@ It's a open-source cryptocurrency project focused on private and censorship-resi
 
 Learn more about Monero: [Moneropedia](https://www.getmonero.org/resources/moneropedia/)
 
-See also the documentation of the application level protocol that allows <b>peer-to-peer</b> communication between Monero nodes: [Levin Protocol](https://github.com/monero-project/monero/blob/master/docs/LEVIN_PROTOCOL.md)
+See also the documentation of the application level protocol that allows **peer-to-peer** communication between Monero nodes: [Levin Protocol](https://github.com/monero-project/monero/blob/master/docs/LEVIN_PROTOCOL.md)
 
 
 ## Educational project using Levin Protocol
 
- Execution of this program initializes <b>monero peer-to-peer network analisys</b>:
+ Execution of this program initializes **monero peer-to-peer network analisys**:
  *   Main thread: Initialization of all threads and catch two signals due to exit: ```SIGINT``` and ```SIGTERM```
 
      When one of those signal is received (also executing ```terminate.sh```), program writes Monero node list (binary search tree) ⟶ ```logbst``` file (information of each node) and terminate.
@@ -74,8 +74,8 @@ Destination node can be selected from the following Monero seed-nodes list:
   - 212.83.172.165 18080
   - 212.83.175.67 18080
   
-$ ./main 212.83.175.67 18080 10 | python locate.py    # 10 seconds collecting nodes from Monero P2P network + locating them on map
-                                                      # and then receive transactions from available nodes  + locating them on map
+$ ./main 212.83.175.67 18080 10 | python locate.py    # 10 seconds to collect nodes from Monero P2P network + locate them on map
+                                                      # and then receive transactions from available nodes  + locate them on map
 ```
 
 Execute ```terminate.sh``` script to terminate the execution of the main program and send quit method to Python program:
@@ -88,7 +88,7 @@ $ sh terminate.sh
 
 This project is tested on Ubuntu and Debian
 
-To install all <b>dependencies</b> and start the execution you can follow this guide:
+To install all dependencies and start the execution you can follow this guide:
 
 ```
 $ sudo apt-get install git
@@ -119,7 +119,7 @@ $ python3 locate.py
 $ python3 locate.py 0.5
 ```
 
-Finally, combine the execution of both programs with <b>pipe</b>:
+Finally, combine the execution of both programs with **pipe**:
 ```
 $ ./main 212.83.175.67 18080 10 | python locate.py
 ```
