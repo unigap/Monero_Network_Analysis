@@ -60,9 +60,13 @@ $ sh terminate.sh
 ```
 
 [Monero Github project](https://github.com/monero-project/monero)
+
 [Monero seed nodes](https://community.xmr.to/xmr-seed-nodes)
+
 [Monerodocs](https://monerodocs.org/)
+
 [MoneroWorld](https://moneroworld.com/)
+
 
 <h2><b> Dependencies: </b></h2>
 
