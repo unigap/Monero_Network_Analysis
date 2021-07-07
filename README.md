@@ -4,7 +4,7 @@
  Execution of this program initializes <b>monero peer-to-peer network analisys</b>:
  *   Main thread: Initialization of all threads and catch two signals due to exit: ```SIGINT``` and ```SIGTERM```
 
-     When one of those signal is received (also executing ```terminate.sh```), program writes Monero node list (binary search tree) ⟶ ```logbst``` file (info of each node) and terminate.
+     When one of those signal is received (also executing ```terminate.sh```), program writes Monero node list (binary search tree) ⟶ ```logbst``` file (information of each node) and terminate.
      
      - 1<sup>st</sup> thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree.
 
