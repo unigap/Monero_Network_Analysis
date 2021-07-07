@@ -1,6 +1,17 @@
 # Monero Network Analysis
 
+
+## Table of Contents
+
+  - [Introduction](#introduction)
+  - [Educational project using Levin protocol](#educational-project-using-levin-protocol)
+  - [Output images](#output-images)
+  - [Related sites](#related-sites)
+
+
 <!--Monero, a digital currency that is secure, private, and untraceable.-->
+
+## Introduction
 
 [What is Monero?](https://www.getmonero.org/get-started/what-is-monero/)
 
@@ -8,10 +19,10 @@ It's a open-source cryptocurrency project focused on private and censorship-resi
 
 Learn more about Monero: [Moneropedia](https://www.getmonero.org/resources/moneropedia/)
 
-See also the documentation of the application level protocol that allows <b>peer-to-peer</b> communication between Monero nodes: [Levin protocol](https://github.com/monero-project/monero/blob/master/docs/LEVIN_PROTOCOL.md)
+See also the documentation of the application level protocol that allows <b>peer-to-peer</b> communication between Monero nodes: [Levin Protocol](https://github.com/monero-project/monero/blob/master/docs/LEVIN_PROTOCOL.md)
 
 
-## This is an educational project using Levin protocol
+## Educational project using Levin Protocol
 
  Execution of this program initializes <b>monero peer-to-peer network analisys</b>:
  *   Main thread: Initialization of all threads and catch two signals due to exit: ```SIGINT``` and ```SIGTERM```
