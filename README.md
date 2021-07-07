@@ -58,9 +58,11 @@ Execute terminate.sh script to terminate the execution of the main program and s
 ```
 $ sh terminate.sh
 ```
-Monero seed nodes: https://community.xmr.to/xmr-seed-nodes
 
-
+[Monero Github project](https://github.com/monero-project/monero)
+[Monero seed nodes](https://community.xmr.to/xmr-seed-nodes)
+[Monerodocs](https://monerodocs.org/)
+[MoneroWorld](https://moneroworld.com/)
 
 <h2><b> Dependencies: </b></h2>
 
