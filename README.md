@@ -1,7 +1,7 @@
 # Monero Network Analysis
-<b> This is a educational project </b>
+<h2><b> This is a educational project </b></h2>
 
- Execution of this program initializes monero peer-to-peer network analisys:
+ Execution of this program initializes <b>monero peer-to-peer network analisys</b>:
  *   Main thread: This thread initialize all threads and catch two signals: ```SIGINT``` and ```SIGTERM``` -> write ```logbst``` file (nodes info).
      - 1<sup>st</sup> thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree. -> ```log1001```
      - 2<sup>nd</sup> thread: Check with 1003 message if each node still available. If not response is received, then node will be removed from map.                  -> ```log1003```
@@ -16,9 +16,9 @@ $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o 
 ```
 $ ./main <IP> <PORT> <time12>
 ```
- * IP: destination monero node IP address
- * PORT: natural int, often number 18080
- * time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
+   - IP: destination monero node IP address
+   - PORT: natural int, often number 18080
+   - time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
  
  Combine this execution output with the Python program to locate nodes on map (```locate.py```):
 
@@ -39,11 +39,11 @@ Monero seed nodes: https://community.xmr.to/xmr-seed-nodes
 
 
 
-<b> Dependencies: </b>
+<h2><b> Dependencies: </b></h2>
 
-This project is tested on Ubuntu
+This project is tested on Ubuntu and Debian
 
-To install dependencies and start the execution you can follow this guide:
+To install all <b>dependencies</b> and start the execution you can follow this guide:
 
 ```
 $ sudo apt-get install git
@@ -67,7 +67,7 @@ Destination node can be selected from the following Monero seed-nodes list:
   - 212.83.172.165 18080
   - 212.83.175.67 18080
 ```
-We next install dependencies for the python program:
+Next we will install dependencies for the python program:
 ```
 $ sudo apt-get install python3-pip
 $ pip3 install numpy
@@ -88,7 +88,7 @@ $ python3 locate.py
 $ python3 locate.py 0.5
 ```
 
-And finally, combine the execution of both programs:
+Finally, combine the execution of both programs with <b>pipe</b>:
 ```
 $ ./main 212.83.175.67 18080 10 | python locate.py
 ```
