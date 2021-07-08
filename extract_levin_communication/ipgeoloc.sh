@@ -29,12 +29,14 @@ do
 
         # 1. modua (orain API key-arekin)
 #        resp=$(curl https://ipinfo.io/$ip | jq '.country, .city, .loc') # null: rate limit exceeded
-        resp=$(curl https://ipinfo.io/$ip?token={TOKEN} | jq '.country, .city, .loc') # REPLACE {TOKEN}
-        cou=$(echo $resp | cut -d '"' -f 2)
-        cit=$(echo $resp | cut -d '"' -f 4)
-        lat=$(echo $resp | cut -d '"' -f 6 | cut -d ',' -f 1)
-        lon=$(echo $resp | cut -d '"' -f 6 | cut -d ',' -f 2)
-        echo $ip"\t" Country:$cou, City:$cit, Latitude:$lat, Longitude:$lon       # Informazio esanguratsua idatzi
+
+        # REPLACE {ACCOUNT ID} & {API KEY}
+        #resp=$(curl https://ipinfo.io/$ip?token={TOKEN} | jq '.country, .city, .loc') # REPLACE {TOKEN}
+        #cou=$(echo $resp | cut -d '"' -f 2)
+        #cit=$(echo $resp | cut -d '"' -f 4)
+        #lat=$(echo $resp | cut -d '"' -f 6 | cut -d ',' -f 1)
+        #lon=$(echo $resp | cut -d '"' -f 6 | cut -d ',' -f 2)
+        #echo $ip"\t" Country:$cou, City:$cit, Latitude:$lat, Longitude:$lon       # Informazio esanguratsua idatzi
 
 
         # 2. modua (batzuetan city hutsik)
@@ -66,16 +68,17 @@ do
 
 
         # 5. modua (geoip doan: geolite API key) agian  city null... https://www.maxmind.com
-        resp=$(curl -u {ACCOUNT ID}:{API KEY} https://geolite.info/geoip/v2.1/city/$ip | jq '.country.iso_code, .location.latitude, .location.longitude, .city.names.en') # REPLACE {ACCOUNT ID} & {API KEY}
-        cou=$(echo $resp | cut -d '"' -f 2)
-        cit=$(echo $resp | cut -d '"' -f 4)
-        lat=$(echo $resp | cut -d ' ' -f 2)
-        lon=$(echo $resp | cut -d ' ' -f 3)
-        echo $ip"\t" Country:$cou, City:$cit, Latitude:$lat, Longitude:$lon       # Informazio esanguratsua idatzi
+        # REPLACE {ACCOUNT ID} & {API KEY}
+        #resp=$(curl -u {ACCOUNT ID}:{API KEY} https://geolite.info/geoip/v2.1/city/$ip | jq '.country.iso_code, .location.latitude, .location.longitude, .city.names.en') # REPLACE {ACCOUNT ID} & {API KEY}
+        #cou=$(echo $resp | cut -d '"' -f 2)
+        #cit=$(echo $resp | cut -d '"' -f 4)
+        #lat=$(echo $resp | cut -d ' ' -f 2)
+        #lon=$(echo $resp | cut -d ' ' -f 3)
+        #echo $ip"\t" Country:$cou, City:$cit, Latitude:$lat, Longitude:$lon       # Informazio esanguratsua idatzi
 
 
         # 6. modua (maxmind-ren GeoLite2-City databasea .dat formatura pasata: https://www.miyuru.lk/geoiplegacy) hau ez dago aurrekoa bezain eguneratuta... modu honek ez du sarerako konexiorik behar
-        resp=$(geoiplookup -f ./geoip/maxmind4.dat $ip) # Datu-basearen path-arekin lortu kokapena (wget https://dl.miyuru.lk/geoip/maxmind/city/maxmind4.dat.gz)
+        resp=$(geoiplookup -f ../src/geoip/maxmind4.dat $ip) # Datu-basearen path-arekin lortu kokapena (wget https://dl.miyuru.lk/geoip/maxmind/city/maxmind4.dat.gz)
         cou=$(echo $resp | cut -d ',' -f 2 | cut -d ':' -f 2 | cut -d ' ' -f 2)
         cit=$(echo $resp | cut -d ',' -f 5 | cut -d ' ' -f 2-)
         lat=$(echo $resp | cut -d ',' -f 7 | cut -d ' ' -f 2)
