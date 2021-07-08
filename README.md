@@ -30,7 +30,7 @@ See also the documentation of the application level protocol that allows **peer-
 
 ## Educational project using Levin Protocol
 
-With this project I intend to analyze Monero P2P network; cryptocurrency and privacy techniques, network programming and application layer protocols. Moreover, I want to contribute to the general knowledge about Monero and its great characteristics.
+With this project I intend to analyze Monero P2P network; cryptocurrency and privacy techniques, network programming and application layer protocols. Moreover, I want to contribute to the general knowledge about Monero and its great features.
 
 ### Reverse engineering
 
