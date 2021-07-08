@@ -38,7 +38,8 @@ The first step was to execute ```monerod``` and check the TCP communication with
 
 Example:
 ```
-sh hasi.sh 90 eth0
+$ sh hasi.sh 90 eth0
+
 ```
 
 
