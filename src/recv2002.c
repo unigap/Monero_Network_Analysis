@@ -61,12 +61,12 @@ void * hasieratu_trnodoa(void *args) {
 
     log = fopen(izen, "w");
     if(log == NULL) {
-            printf("Errorea %s fitxategia irekitzean: %s\n", izen, strerror(errno));
+            printf("Error opening %s file: %s\n", izen, strerror(errno));
             fflush(stdout);
             pthread_exit(NULL);
     }
 
-	while(1) { // begizta infinitua (Ctrl + c)
+	while(1) { // interrupt (Ctrl+c) or kill (terminate.sh)
 		fprintf(log, "=========\n");
 		fflush(log);
 		hautatu_tnodoa(has, atoi(args), log); // esleitu nodo atzigarri bat hari bakoitzari
@@ -82,7 +82,7 @@ void * hautatu_tnodoa(struct bst_ip *un, int id, FILE *log) {
 
     if(un == NULL) {
             //sleep(1);
-    	fprintf(log, "Ez dago nodorik atzigarri %d. hariari esleitzeko\n", id); // ez sortu haria, nodoa NULL bada
+    	fprintf(log, "There are not available nodes for %d thread\n", id); // ez sortu haria, nodoa NULL bada
     	fflush(log);
     	fclose(log);
     	// return (void *) 1; // aurreko begiztara bueltatu.. ez da gertatuko
@@ -97,14 +97,14 @@ void * hautatu_tnodoa(struct bst_ip *un, int id, FILE *log) {
 			un->stat = 4;    // erreserbatu jaso2002 prozesurako
 			pthread_mutex_unlock(&(un->lock));         // askatu nodoa (statra horretan ezin atzitu)
 			if(un->tkop < 0) un->tkop = 0; 		   // transakzioen jasoketa prozesua hasieratuta (bestela -1 delako)
-			fprintf(log,"Prozesuaren emaitza fitxategia: %s_2002_%d\n", inet_ntoa(un->nodip), id); // ez sortu haria, nodoa NULL bada
+			fprintf(log,"Output file name: %s_2002_%d\n", inet_ntoa(un->nodip), id); // ez sortu haria, nodoa NULL bada
 			fflush(log);
 			err = ( long ) jaso2002(un, log, id);
 			pthread_mutex_lock(&(un->lock));		// blokeatu nodoa statra aldatzeko
 			un->stat = ego; // hasierako statrara itzuli beste batzuk prozesua jarraitzeko
 			pthread_mutex_unlock(&(un->lock)); 	// askatu nodoa
 			if(err > 0) {
-				fprintf(log, B_RED"Errorea %d. harian: %ld\n"RESET, id, err);
+				fprintf(log, B_RED"Error on %d thread, code: %ld\n"RESET, id, err);
 				fflush(log);
 			}
 		}
@@ -299,7 +299,7 @@ void * jaso2002(struct bst_ip *un, FILE *log, int id) {
                 sprintf(tamc, "0x%.2x%.2x%.2x", recbuf0[2], recbuf0[1], recbuf0[0]);
                 tamn = strtol(tamc, NULL, 16);
 
-                fprintf(log,"%ld message received from %s:%d  Data length: %ld \n", comn, target, un->port, tamn);
+                fprintf(log,"%ld message received from %s:%d \t Packet length: %ld \n", comn, target, un->port, tamn);
                 fflush(log);
                 if(comn == 2002) {
 	                    ttam=(tamn/500);
@@ -343,7 +343,7 @@ void * jaso2002(struct bst_ip *un, FILE *log, int id) {
 				sprintf(tamc, "0x%.2x%.2x%.2x", recbuf0[10], recbuf0[9],recbuf0[8]);
         		tamn = strtol(tamc, NULL, 16);
 
-				fprintf(log, "%ld message received from %s:%d  Data length: %ld \n", comn, target, un->port, tamn);
+				fprintf(log, "%ld message received from %s:%d \t Packet length: %ld \n", comn, target, un->port, tamn);
 				fflush(log);
 				if(comn == 2002) {
 					ttam=(tamn/500);
