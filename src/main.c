@@ -107,7 +107,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	char *h_ip = inet_ntoa(root->nodip);
-	fprintf(log, "Destination node: %s %d\n", h_ip, root->port);
+	fprintf(log, "Destination node: %s %d \t Requests time limit: %d (s)\n", h_ip, root->port, time);
 
 	char sport[7];
 	sprintf(sport, "%d", root->port);
