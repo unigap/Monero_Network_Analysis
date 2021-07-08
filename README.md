@@ -21,7 +21,7 @@
 
 [What is Monero?](https://www.getmonero.org/get-started/what-is-monero/)
 
-It's a open-source cryptocurrency project focused on private and censorship-resistant transactions. That is because Monero uses various privacy-enhancing technologies to hide information of the blockchain and ensure the anonymity of its users.
+It's an open-source cryptocurrency project focused on private and censorship-resistant transactions. That is because Monero uses various privacy-enhancing technologies to hide information of the blockchain and ensure the anonymity of its users.
 
 Learn more about Monero: [Moneropedia](https://www.getmonero.org/resources/moneropedia/)
 
@@ -30,7 +30,7 @@ See also the documentation of the application level protocol that allows **peer-
 
 ## Educational project using Levin Protocol
 
-With this project I intend to analyze Monero P2P network; cryptocurrency and privacy techniques, network programming and application layer protocols. Moreover, I want to contribute in the general knowledge about Monero and its great characteristics.
+With this project I intend to analyze Monero P2P network; cryptocurrency and privacy techniques, network programming and application layer protocols. Moreover, I want to contribute to the general knowledge about Monero and its great characteristics.
 
 ### Reverse engineering
 
@@ -52,12 +52,12 @@ Getting geolocation of IPs... Output: iplocs
  Execution of this program initializes **monero peer-to-peer network analisys**:
  *   Main thread: Initialization of all threads and catch two signals due to exit: ```SIGINT``` and ```SIGTERM```
 
-     When one of those signal is received (also executing ```terminate.sh```), program writes Monero node list (binary search tree) ⟶ ```logbst``` file (information of each node) and terminate.
+     When one of those signal is received (also executing ```terminate.sh```), the main program writes Monero node list (binary search tree) ⟶ ```logbst``` file (information of each node) and terminate.
      
-     - 1<sup>st</sup> thread: For each node request the peer list with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree.
+     - 1<sup>st</sup> thread: Request recursively the peer list of each Monero node with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree.
 
        Record events ⟶ ```log1001``` file
-     - 2<sup>nd</sup> thread: Check with 1003 message if each node still available. If not response is received, then node will be removed from map.
+     - 2<sup>nd</sup> thread: Check with 1003 message if each node is still available. If no response is received, then node will be removed from the map.
      
        Record events ⟶ ```log1003``` file
      - 3<sup>rd</sup> thread: Get coordenates of each node and print them on standard output (to comunicate by pipe with the other program (```locate.py```)
