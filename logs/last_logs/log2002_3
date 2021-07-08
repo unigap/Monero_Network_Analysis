@@ -1,0 +1,246 @@
+=========
+Output file name: 47.240.109.98_2002_3
+Socket descriptor: 42
+Port binded		Couldn't connect: -1
+[1m[31mError on 3 thread, code: 5
+[0mOutput file name: 49.245.5.191_2002_3
+Socket descriptor: 42
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 49.245.5.191:18080 	 Packet length: 10 
+1001 message received from 49.245.5.191:18080 	 Packet length: 15479 
+1002 message received from 49.245.5.191:18080 	 Packet length: 172 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 47.241.192.56_2002_3
+Socket descriptor: 47
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.241.192.56:18080 	 Packet length: 10 
+1001 message received from 47.241.192.56:18080 	 Packet length: 15274 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 50.31.112.231_2002_3
+Socket descriptor: 47
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 50.31.112.231:18080 	 Packet length: 10 
+1001 message received from 50.31.112.231:18080 	 Packet length: 15951 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.79.117.98_2002_3
+Socket descriptor: 47
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.79.117.98:18080 	 Packet length: 15050 
+1003 message received from 51.79.117.98:18080 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.79.51.28_2002_3
+Socket descriptor: 47
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.79.51.28:16074 	 Packet length: 15141 
+1003 message received from 51.79.51.28:16074 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.15.182.191_2002_3
+Socket descriptor: 47
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 51.15.182.191:18080 	 Packet length: 10 
+1001 message received from 51.15.182.191:18080 	 Packet length: 15488 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.68.204.163_2002_3
+Socket descriptor: 47
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 51.68.204.163:18080 	 Packet length: 10 
+1001 message received from 51.68.204.163:18080 	 Packet length: 15944 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.68.200.139_2002_3
+Socket descriptor: 47
+Port binded		Couldn't connect: -4
+[1m[31mError on 3 thread, code: 5
+[0mOutput file name: 51.68.209.39_2002_3
+Socket descriptor: 47
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.68.209.39:5759 	 Packet length: 15297 
+1003 message received from 51.68.209.39:5759 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.68.214.143_2002_3
+Socket descriptor: 47
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.68.214.143:4400 	 Packet length: 15193 
+1003 message received from 51.68.214.143:4400 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.75.70.225_2002_3
+Socket descriptor: 47
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.75.70.225:2269 	 Packet length: 15271 
+1003 message received from 51.75.70.225:2269 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.68.222.162_2002_3
+Socket descriptor: 51
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.68.222.162:16399 	 Packet length: 15063 
+2008 message received from 51.68.222.162:16399 	 Packet length: 367 
+1002 message received from 51.68.222.162:16399 	 Packet length: 135 
+1003 message received from 51.68.222.162:16399 	 Packet length: 10 
+2008 message received from 51.68.222.162:16399 	 Packet length: 975 
+1002 message received from 51.68.222.162:16399 	 Packet length: 135 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.68.220.13_2002_3
+Socket descriptor: 51
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.68.220.13:11919 	 Packet length: 15063 
+1003 message received from 51.68.220.13:11919 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.75.70.225_2002_3
+Socket descriptor: 29
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.75.70.225:13283 	 Packet length: 15154 
+1003 message received from 51.75.70.225:13283 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.75.70.225_2002_3
+Socket descriptor: 29
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.75.70.225:13684 	 Packet length: 15167 
+1003 message received from 51.75.70.225:13684 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.75.102.208_2002_3
+Socket descriptor: 31
+Port binded		Couldn't connect: -1
+[1m[31mError on 3 thread, code: 5
+[0mOutput file name: 51.75.102.208_2002_3
+Socket descriptor: 31
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.75.102.208:7611 	 Packet length: 15024 
+1003 message received from 51.75.102.208:7611 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.75.157.196_2002_3
+Socket descriptor: 6
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.75.157.196:13724 	 Packet length: 15206 
+1003 message received from 51.75.157.196:13724 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.77.202.219_2002_3
+Socket descriptor: 6
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.77.202.219:11965 	 Packet length: 15193 
+1003 message received from 51.77.202.219:11965 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.77.136.40_2002_3
+Socket descriptor: 6
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.77.136.40:14481 	 Packet length: 15076 
+1003 message received from 51.77.136.40:14481 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.77.136.40_2002_3
+Socket descriptor: 49
+Port binded		Couldn't connect: -1
+[1m[31mError on 3 thread, code: 5
+[0mOutput file name: 51.79.49.41_2002_3
+Socket descriptor: 49
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.79.49.41:13301 	 Packet length: 15089 
+1003 message received from 51.79.49.41:13301 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.77.227.128_2002_3
+Socket descriptor: 49
+Port binded		Couldn't connect: -4
+[1m[31mError on 3 thread, code: 5
+[0mOutput file name: 51.79.49.41_2002_3
+Socket descriptor: 49
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.79.49.41:8369 	 Packet length: 15232 
+1003 message received from 51.79.49.41:8369 	 Packet length: 10 
+2008 message received from 51.79.49.41:8369 	 Packet length: 527 
+1002 message received from 51.79.49.41:8369 	 Packet length: 135 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.79.51.27_2002_3
+Socket descriptor: 45
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.79.51.27:17436 	 Packet length: 15154 
+1003 message received from 51.79.51.27:17436 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.79.50.44_2002_3
+Socket descriptor: 45
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.79.50.44:2735 	 Packet length: 15193 
+1003 message received from 51.79.50.44:2735 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.79.51.27_2002_3
+Socket descriptor: 45
+Port binded		Couldn't connect: -4
+[1m[31mError on 3 thread, code: 5
+[0mOutput file name: 51.79.51.27_2002_3
+Socket descriptor: 45
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.79.51.27:13377 	 Packet length: 15167 
+1003 message received from 51.79.51.27:13377 	 Packet length: 10 
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 3 thread, code: 10
+[0mOutput file name: 51.79.51.28_2002_3
+Socket descriptor: 45
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1001 message received from 51.79.51.28:11174 	 Packet length: 15219 
+1003 message received from 51.79.51.28:11174 	 Packet length: 10 

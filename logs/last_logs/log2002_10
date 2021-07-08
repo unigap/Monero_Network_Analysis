@@ -1,0 +1,312 @@
+=========
+Output file name: 46.32.46.171_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.32.46.171:18080 	 Packet length: 10 
+1001 message received from 46.32.46.171:18080 	 Packet length: 15196 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 2.205.98.230_2002_10
+Socket descriptor: 30
+Port binded		Couldn't connect: -1
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 45.136.29.44_2002_10
+Socket descriptor: 30
+Port binded		Couldn't connect: -1
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 5.9.17.234_2002_10
+Socket descriptor: 30
+Port binded		Couldn't connect: -1
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 5.9.120.18_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 5.9.120.18:18080 	 Packet length: 10 
+1001 message received from 5.9.120.18:18080 	 Packet length: 14803 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 35.139.237.20_2002_10
+Socket descriptor: 30
+Port binded		Couldn't connect: -1
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 45.152.183.53_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 45.152.183.53:54896 	 Packet length: 10 
+1001 message received from 45.152.183.53:54896 	 Packet length: 15729 
+2002 message received from 45.152.183.53:54896 	 Packet length: 4905 
+2002 message received from 45.152.183.53:54896      tkop: 9
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 45.150.187.9_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 45.150.187.9:18080 	 Packet length: 10 
+1001 message received from 45.150.187.9:18080 	 Packet length: 15905 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.240.109.98_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.32.178.58_2002_10
+Socket descriptor: 30
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 46.147.228.2_2002_10
+Socket descriptor: 30
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 46.124.188.95_2002_10
+Socket descriptor: 30
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 46.101.56.26_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.101.56.26:18080 	 Packet length: 10 
+1001 message received from 46.101.56.26:18080 	 Packet length: 15999 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.102.157.134_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.102.157.134:18080 	 Packet length: 10 
+1001 message received from 46.102.157.134:18080 	 Packet length: 15757 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.101.117.180_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.101.117.180:18080 	 Packet length: 10 
+1001 message received from 46.101.117.180:18080 	 Packet length: 15991 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.126.224.37_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.126.224.37:18080 	 Packet length: 10 
+1001 message received from 46.126.224.37:18080 	 Packet length: 15511 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.126.180.21_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.126.180.21:5036 	 Packet length: 10 
+1001 message received from 46.126.180.21:5036 	 Packet length: 14814 
+2001 message received from 46.126.180.21:5036 	 Packet length: 10222 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.142.62.196_2002_10
+Socket descriptor: 30
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 46.163.72.129_2002_10
+Socket descriptor: 30
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.163.72.129:18080 	 Packet length: 10 
+1001 message received from 46.163.72.129:18080 	 Packet length: 14997 
+2001 message received from 46.163.72.129:18080 	 Packet length: 44389 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.167.244.131_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.167.244.131:18080 	 Packet length: 10 
+1001 message received from 46.167.244.131:18080 	 Packet length: 15659 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.166.151.27_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.166.151.27:18080 	 Packet length: 10 
+1001 message received from 46.166.151.27:18080 	 Packet length: 15579 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.165.221.209_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.165.221.209:18080 	 Packet length: 10 
+1001 message received from 46.165.221.209:18080 	 Packet length: 15971 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.165.93.230_2002_10
+Socket descriptor: 40
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 46.198.233.232_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 46.198.233.232:18080 	 Packet length: 10 
+1001 message received from 46.198.233.232:18080 	 Packet length: 15651 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.189.224.76_2002_10
+Socket descriptor: 40
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 47.17.25.187_2002_10
+Socket descriptor: 40
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 47.13.153.9_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.13.153.9:18080 	 Packet length: 10 
+1001 message received from 47.13.153.9:18080 	 Packet length: 15008 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 46.212.81.38_2002_10
+Socket descriptor: 40
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 47.20.123.26_2002_10
+Socket descriptor: 40
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 47.32.132.239_2002_10
+Socket descriptor: 40
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 47.27.68.133_2002_10
+Socket descriptor: 40
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 47.101.72.124_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.101.72.124:18080 	 Packet length: 10 
+1001 message received from 47.101.72.124:18080 	 Packet length: 15540 
+1002 message received from 47.101.72.124:18080 	 Packet length: 172 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.36.167.64_2002_10
+Socket descriptor: 40
+Port binded		Couldn't connect: -5
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 47.93.219.20_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.93.219.20:18080 	 Packet length: 10 
+1001 message received from 47.93.219.20:18080 	 Packet length: 15333 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.52.223.61_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.52.223.61:18080 	 Packet length: 10 
+1001 message received from 47.52.223.61:18080 	 Packet length: 15697 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.75.9.191_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.75.9.191:18080 	 Packet length: 10 
+1001 message received from 47.75.9.191:18080 	 Packet length: 15295 
+2001 message received from 47.75.9.191:18080 	 Packet length: 217 
+2001 message received from 47.75.9.191:18080 	 Packet length: 17165 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.100.125.22_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.100.125.22:18080 	 Packet length: 10 
+1001 message received from 47.100.125.22:18080 	 Packet length: 16196 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.99.35.191_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.99.35.191:18080 	 Packet length: 10 
+1001 message received from 47.99.35.191:18080 	 Packet length: 15025 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.97.203.209_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+Couldn't receive message, length: -1  err: Resource temporarily unavailable
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.218.218.3_2002_10
+Socket descriptor: 40
+Port binded		Couldn't connect: -1
+[1m[31mError on 10 thread, code: 5
+[0mOutput file name: 47.183.236.30_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.183.236.30:18080 	 Packet length: 10 
+1001 message received from 47.183.236.30:18080 	 Packet length: 16030 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.132.8.85_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.132.8.85:18080 	 Packet length: 10 
+1001 message received from 47.132.8.85:18080 	 Packet length: 15219 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.157.85.213_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
+1007 message received from 47.157.85.213:18080 	 Packet length: 10 
+1001 message received from 47.157.85.213:18080 	 Packet length: 15513 
+1002 message received from 47.157.85.213:18080 	 Packet length: 172 
+Couldn't receive message, length: 0  err: Success
+[1m[31mError on 10 thread, code: 10
+[0mOutput file name: 47.154.205.208_2002_10
+Socket descriptor: 40
+Port binded		Connected: 1
+1001 request header sent		 Packet length: 33 (10), 21 (16).
+1001 request data sent 		 Packet length: 226 (10), e2 (16).
