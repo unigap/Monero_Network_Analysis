@@ -348,7 +348,7 @@ while True:
 #m.bluemarble()
 ##draw_map(m)
 #plt.show()
-print("\nNunmber of nodes: ", iter)
+print("\nNumber of nodes: ", iter)
 print("Number of transactions: ", trko)
 print("Removed: ", remo)
 print("Errors: ", err)
