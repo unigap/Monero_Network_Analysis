@@ -25,6 +25,8 @@
 
 It's an open-source cryptocurrency project focused on private and censorship-resistant transactions. That is because Monero uses various privacy-enhancing technologies to hide information of the blockchain and ensure the anonymity of its users.
 
+The main technologies of Monero are: [Stealth Address](https://www.getmonero.org/resources/moneropedia/stealthaddress.html), [Ring Signatures](https://www.getmonero.org/resources/moneropedia/ringsignatures.html), [Ring Confidential Transactions](https://www.getmonero.org/resources/moneropedia/ringCT.html) and [Dandelion++](https://localmonero.co/knowledge/monero-dandelion)
+
 Learn more about Monero: [Moneropedia](https://www.getmonero.org/resources/moneropedia/)
 
 See also the documentation of the application level protocol that allows **peer-to-peer** communication between Monero nodes: [Levin Protocol](https://github.com/monero-project/monero/blob/master/docs/LEVIN_PROTOCOL.md)
