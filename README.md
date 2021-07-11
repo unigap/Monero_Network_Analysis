@@ -51,15 +51,15 @@ Getting geolocation of IPs... Output: iplocs
 We can analyze all this files and also we can run the following command to know **which Levin messages** (identified with command number) were received during the tcpflow execution:
 ```
 $ grep -E "Command number:" comm_em* | cut -d ':' -f 3 | sort | uniq
- 1001 
- 1002 
- 1007  
- 2002 
- 2003 
- 2004 
- 2006 
- 2007 
- 2008 
+1001 
+1002 
+1007  
+2002 
+2003 
+2004 
+2006 
+2007 
+2008 
 ```
 
 In this way, we can see the sending process performed in each case and use it for develope a tool designed to extract Monero nodes and place them on a world map.
