@@ -224,8 +224,8 @@ Each process stores execution steps and execution errors in a file:
 
 ## Output images
 
-<img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 1">
-<img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 2">
+<img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 1">
+<img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 2">
 
 ## Conclusion
 
