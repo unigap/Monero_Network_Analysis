@@ -101,7 +101,7 @@ $ ./main <IP> <PORT> <time12>
 
 ### Execute both using pipe
 
-Combine the execution of the ```main``` program with the python program to locate the nodes on the map (```locate.py```).
+Combine the execution of the ```main``` program with the Python program to locate the discovered nodes on the map (```locate.py```).
 
 Some examples of execution: 
 ```
@@ -126,7 +126,7 @@ Receiving transactions...
 Transactions received: 2 (212.83.175.67 2)
 ```
 
-Execute ```terminate.sh``` script to terminate the execution of the main program and send quit method to Python program (and thus completes all output files):
+Run ```terminate.sh``` script to terminate the execution of the main program and send quit method (```q```) to Python program (and thus completes all output files):
 ```
 $ sh terminate.sh
 ```
