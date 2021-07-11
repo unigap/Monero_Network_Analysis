@@ -61,6 +61,8 @@ $ grep -E "Command number:" comm_em* | cut -d ':' -f 3 | sort | uniq
  2008 
 ```
 
+In this way, we can see the sending process performed in each case and use it for develope a tool designed to extract Monero nodes and place them on a world map.
+
 
 ### Main program (C)
 
@@ -95,7 +97,8 @@ $ ./main <IP> <PORT> <time12>
 > - IP: destination monero node IP address
 > - PORT: destination node's port number (natural int), often number 18080
 > - time12: time limit to request 1001 and 1003 messages (1<sup>st</sup> and 2<sup>nd</sup> threads) and then start receiving transactions (with 4<sup>th</sup> thread) from those nodes that were available at the moment.
- 
+
+
 ### Secondary program (Python)
 
 ```locate.py``` program reads the standard input to locate nodes on the map with the following format:
