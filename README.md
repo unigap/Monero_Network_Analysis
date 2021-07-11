@@ -93,7 +93,7 @@ $ ./main <IP> <PORT> <time12>
 >     * ```a```: add node on the map
 >     * ```r```: remove node from the map
 >     * ```t```: add transacts to an existing node
->     * ```**q**```: quit the execution (no need for arguments)
+>     * ```q```: quit the execution (no need for arguments)
 > - Longitude: value between -180.0 and 180.0
 > - Latitude: value between -90.0 and 90.0
 > - IP: IP address of the node
