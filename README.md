@@ -124,7 +124,8 @@ $ ./main 212.83.175.67 18080 10 | python locate.py    # 10 seconds to collect no
 Reading coordinates...
 <Method> <Longitude> <Latitude> <IP> <City/Tr>:
 Receiving transactions...
-Transactions received: 2 (212.83.175.67 2)
+Transactions received: 2 ( 3.93.33.238 2 )
+...
 ```
 
 Run ```terminate.sh``` script to terminate the execution of the main program and send quit method (```q```) to Python program (and thus completes all output files):
@@ -175,6 +176,20 @@ $ ./main 212.83.175.67 18080 10 | python locate.py
 ```
 
 ## Log files
+
+Each process stores execution steps and execution errors in a file:
+
+* ```log1001```: shows the handshake requests and responses (for each node)
+> 
+* ```log1003```: shows the ping requests and responses (for each node)
+>
+* ```logmap```: shows the coordinates of each node
+>
+* ```log2002_<id>```: shows the transactions received from each node and sub-thread (with id)
+>
+* ```logbst```: shows the binary search tree (main data-structure) in-order traversal 
+>
+* ```mapinfo```: shows the nodes that were added on the map before the end of execution
 
 
 
