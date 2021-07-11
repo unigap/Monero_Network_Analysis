@@ -38,7 +38,7 @@ The first step was to execute ```monerod``` and check the TCP communication with
 
 Example:
 ```
-$ sh init.sh 90 eth0
+$ sh init.sh 90 eth0          # Listen for 90 seconds the Monero P2P communication (port 18080), specifying the interface eth0 (by default wi-fi interface)
 tcpflow: listening on eth0
 Terminating tcpflow process
 Processing monero packets...  Output: em<i> & comm_em<i> 
