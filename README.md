@@ -203,7 +203,8 @@ Each process stores execution steps and execution errors in a file:
   ```
   Getting coordinates... Node: 212.83.175.67 18080
   In order to obtain location information run the following script: 'sh get_maxmind.sh'
-  The command to be executed in the pipe: geoiplookup -f ./geoip/maxmind4.dat 212.83.175.67 | cut -d ',' -f 5,7-8 | awk -F ',' '{print $3, $2, $1}' | sed s/,//g 
+  The command to be executed in the pipe:
+  geoiplookup -f ./geoip/maxmind4.dat 212.83.175.67 | cut -d ',' -f 5,7-8 | awk -F ',' '{print $3, $2, $1}' | sed s/,//g 
   Pipe opened.
   Lon: 2.338700	Lat: 48.858200	City:  N/A
   ```
