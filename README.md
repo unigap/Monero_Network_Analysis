@@ -31,11 +31,11 @@ See also the documentation of the application level protocol that allows **peer-
 
 ## Educational project using Levin Protocol
 
-With this project I intend to analyze Monero P2P network; cryptocurrency and privacy techniques, and application layer protocols using network programming (in the C programming language). Moreover, I want to contribute to the general knowledge about Monero and its great features.
+With this project I intend to analyze Monero P2P network; cryptocurrency and privacy techniques, and application layer protocols using network programming (in the C programming language). Moreover, I want to contribute to the general knowledge about Monero and its great features that protect users.
 
 ### Reverse engineering
 
-The first step was to execute ```monerod``` and check the TCP communication with ```tcpflow``` and ```hexdump``` as executing the scripts on the folder called extract_levin_communication:
+The first step was to execute ```monerod``` and check the TCP communication with ```tcpflow``` and ```hexdump``` as executing the scripts on the folder called 'extract_levin_communication'. This needs superuser privileges and maybe install ```tcpflow``` and ```hexdump``` tools.
 
 Example:
 ```
@@ -45,6 +45,20 @@ Terminating tcpflow process
 Processing monero packets...  Output: em<i> & comm_em<i> 
 Extracting IPs from data...   Output: ipak 
 Getting geolocation of IPs... Output: iplocs 
+```
+
+We can analyze all this files and also we can run the following command to know **which Levin messages** (identified with command number) were received during the tcpflow execution:
+```
+$ grep -E "Command number:" comm_em* | cut -d ':' -f 3 | sort | uniq
+ 1001 
+ 1002 
+ 1007  
+ 2002 
+ 2003 
+ 2004 
+ 2006 
+ 2007 
+ 2008 
 ```
 
 
