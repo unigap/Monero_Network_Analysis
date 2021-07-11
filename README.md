@@ -247,10 +247,14 @@ Each process stores execution steps and execution errors in a file:
 ## Conclusion
 
 
+## Support
+
+Monero donation address: ```4BDFKWqasRBSPWhRxuRbtpKD4dubfi3htXtdzQQHvfDE8Jjgp6cqHN9gRBDncfU9G2FPeRz3wx35TCmJKkv8Ma8SKLyXmUb```
+
 
 ## Related sites
 
-[Monero](https://www.getmonero.org/)
+[Monero Website](https://www.getmonero.org/)
 
 [Monero Github project](https://github.com/monero-project/monero)
 
