@@ -250,7 +250,7 @@ Each process stores execution steps and execution errors in a file:
   ```
 * ```logbst```: shows the binary search tree (main data-structure) in-order traversal 
   ```
-  Dept.	  IPv4 	    Port   Stat    Lon     	    Lat     	 TrKop.
+  Dept.	  IPv4 	      Port  Stat    Lon     	    Lat     	 TrKop.
    7      1.15.60.121  18080  1   113.722000	  34.773201	   0
    6        1.15.64.2  18080  1   113.722000	  34.773201	   2
    8      2.12.78.124  18080  1    -0.777700	  47.784901	   0
