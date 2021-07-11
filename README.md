@@ -166,7 +166,7 @@ Now you can test the Python program ```locate.py```:
 
 ```
 $ python3 locate.py
-$ python3 locate.py 0.5
+$ python3 locate.py 0.5    # with a lower resolution
 ```
 
 Finally, combine the execution of both programs with **pipe**:
