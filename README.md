@@ -79,8 +79,8 @@ $ ./main <IP> <PORT> <time12>
 ```
 
 > - IP: destination monero node IP address
-> - PORT: natural int, often number 18080
-> - time12: time limit to request 1001 and 1003 (threads 1,2) and then receive transactions (thread 4) from those nodes
+> - PORT: destination node's port number (natural int), often number 18080
+> - time12: time limit to request 1001 and 1003 messages (1^st and 2^nd threads 1 and 2) and then receive transactions (thread 4) from those nodes
  
 ### Secondary program (Python)
 
@@ -119,7 +119,7 @@ Destination node can be selected from the following Monero seed-nodes list:
   - 212.83.175.67 18080
 ```
 ```
-$ ./main 212.83.175.67 18080 10 | python locate.py    # 10 seconds to collect nodes from Monero P2P network + locate them on map
+$ ./main 212.83.175.67 18080 10 | python3 locate.py    # 10 seconds to collect nodes from Monero P2P network + locate them on map
                                                       # and then receive transactions from available nodes  + locate them on map
 Reading coordinates...
 <Method> <Longitude> <Latitude> <IP> <City/Tr>:
@@ -149,7 +149,7 @@ $ cd Monero_Network_Analysis/src/
 $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
 ```
 
-Next we will install dependencies for the Python program:
+Next we will install dependencies for the Python program (it doesn't matter if it's python or python3):
 
 ```
 $ sudo apt-get install python3-pip
@@ -172,7 +172,7 @@ $ python3 locate.py 0.5    # with a lower resolution
 
 Finally, combine the execution of both programs with **pipe**:
 ```
-$ ./main 212.83.175.67 18080 10 | python locate.py
+$ ./main 212.83.175.67 18080 10 | python3 locate.py
 ```
 
 ## Log files
