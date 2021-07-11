@@ -184,11 +184,11 @@ Each process stores execution steps and execution errors in a file:
   Creating socket... 	 Destination node: 212.83.175.67 18080
   Socket descriptor: 8
   Port binded		 Connected
-  1001 request header sent		    Packet length: 33 (10),    21 (16).
-  1001 request data sent 			    Packet length: 226 (10),   e2 (16).
+  1001 request header sent		   Packet length: 33 (10),    21 (16).
+  1001 request data sent 			   Packet length: 226 (10),   e2 (16).
   1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
   1001 response header received 		 Packet length: 33 (10),    21 (16).
-  Receiving 1001 response data... 	 Packet length: 15494 (10), 3c86 (16)	 '212.83.175.67' temporary file.
+  Receiving 1001 response data... 	 Packet length: 15494 (10), 3c86 (16)  '212.83.175.67' temporary file.
   ```
 * ```log1003```: shows the ping requests and responses (for each node)
   ```
