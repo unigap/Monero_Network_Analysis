@@ -83,14 +83,27 @@ $ ./main <IP> <PORT> <time12>
  
 ### Secondary program (Python)
 
-```locate.py``` program
+```locate.py``` program reads the standard input to locate nodes on the map with the following format:
+
+```
+<method> <longitude> <latitude> <IP> <city/trs>
+```
+> - method:
+>     * ```a```: add node on the map
+>     * ```r```: remove node from the map
+>     * ```t```: add transacts to an existing node
+>     * ```q```: quit the execution
+> - longitude: value between -180.0 and 180.0
+> - latitude: value between -90.0 and 90.0
+> - IP: IP address of the node
+> - city/trs: city (with ```a``` and ```r``` methods) or number of transactions (with ```t``` method)
 
 
 ### Execute both using pipe
 
-Combine this execution output with the Python program to locate nodes on map (```locate.py```).
+Combine the execution of the ```main``` program with the python program to locate the nodes on the map (```locate.py```).
 
-Examples: 
+Some examples of execution: 
 ```
 $ ./main    # Print help message
 Destination IP, port and time limit for requests (seg) are necessary to initialize the execution!
@@ -103,12 +116,13 @@ Destination node can be selected from the following Monero seed-nodes list:
   - 209.250.243.248 18080
   - 212.83.172.165 18080
   - 212.83.175.67 18080
-  
+```
+```
 $ ./main 212.83.175.67 18080 10 | python locate.py    # 10 seconds to collect nodes from Monero P2P network + locate them on map
                                                       # and then receive transactions from available nodes  + locate them on map
 ```
 
-Execute ```terminate.sh``` script to terminate the execution of the main program and send quit method to Python program:
+Execute ```terminate.sh``` script to terminate the execution of the main program and send quit method to Python program (and thus completes all output files):
 ```
 $ sh terminate.sh
 ```
