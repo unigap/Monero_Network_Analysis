@@ -13,6 +13,7 @@
   - [Log files](#log-files)
   - [Output images](#output-images)
   - [Conclusion](#conclusion)
+  - [Support](#support)
   - [Related sites](#related-sites)
 
 
