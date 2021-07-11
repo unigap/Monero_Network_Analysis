@@ -51,7 +51,7 @@ Getting geolocation of IPs... Output: iplocs
 ```
 
 We can analyze all this files and also we can run the following command to know **which Levin messages** (identified with command number) were received during the tcpflow execution:
-```bash
+```sh
 $ grep -E "Command number:" comm_em* | cut -d ':' -f 3 | sort | uniq
 1001 
 1002 
@@ -88,12 +88,12 @@ In this way, we can see the sending process performed in each case and use it fo
        Record events ⟶ ```log2002``` file
 
  * Compile:
-```
+```sh
 $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
 ```
 
  * Run:     
-```
+```sh
 $ ./main <IP> <PORT> <time12>
 ```
 
@@ -106,7 +106,7 @@ $ ./main <IP> <PORT> <time12>
 
 ```locate.py``` program reads the standard input to locate nodes on the map with the following format:
 
-```
+```sh
 <Method> <Longitude> <Latitude> <IP> <City/Tr>
 ```
 > - Method:
@@ -125,7 +125,7 @@ $ ./main <IP> <PORT> <time12>
 Combine the execution of the ```main``` program with the Python program to locate the discovered nodes on the map (```locate.py```).
 
 Some examples of execution: 
-```
+```sh
 $ ./main    # Print help message
 Destination IP, port and time limit for requests (seg) are necessary to initialize the execution!
 Destination node can be selected from the following Monero seed-nodes list: 
@@ -138,7 +138,7 @@ Destination node can be selected from the following Monero seed-nodes list:
   - 212.83.172.165 18080
   - 212.83.175.67 18080
 ```
-```
+```sh
 $ ./main 212.83.175.67 18080 10 | python3 locate.py    # 10 seconds to collect nodes from Monero P2P network + locate them on map
                                                        # and then receive transactions from available nodes  + locate them on map
 Reading coordinates...
@@ -149,7 +149,7 @@ Transactions received: 2 ( 3.93.33.238 2 )
 ```
 
 Run ```terminate.sh``` script to terminate the execution of the main program and send quit method (```q```) to Python program (and thus completes all output files):
-```
+```sh
 $ sh terminate.sh
 ```
 
@@ -160,7 +160,7 @@ This project is tested on Ubuntu and Debian
 
 To install all dependencies and start the execution you can follow these steps:
 
-```
+```sh
 $ sudo apt-get install git
 $ sudo apt-get install gcc
 $ sudo apt-get install geoip-bin
@@ -171,7 +171,7 @@ $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o 
 
 Next we will install dependencies for the Python program (it doesn't matter if it's python or python3):
 
-```
+```sh
 $ sudo apt-get install python3-pip
 $ pip3 install numpy
 $ pip3 install pandas
@@ -185,13 +185,13 @@ $ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip
 
 Now you can test the Python program ```locate.py```:
 
-```
+```sh
 $ python3 locate.py
 $ python3 locate.py 0.5    # with a lower resolution
 ```
 
 Finally, combine the execution of both programs with **pipe**:
-```
+```sh
 $ ./main 212.83.175.67 18080 10 | python3 locate.py
 ```
 
@@ -230,15 +230,45 @@ Each process stores execution steps and execution errors in a file:
   ```
 * ```log2002_<id>```: shows the transactions received from each node and sub-thread (with id)
   ```
+  Socket descriptor: 36
+  Port binded		Connected: 1
+  1001 request header sent		 Packet length: 33 (10), 21 (16).
+  1001 request data sent 		 Packet length: 226 (10), e2 (16).
+  1007 message received from 18.158.207.141:18080  Data length: 10 
+  1001 message received from 18.158.207.141:18080  Data length: 16083 
+  Couldn't receive message, length: 0  err: Success
+  [1m[31mErrorea 1. harian: 10
   
+  Socket descriptor: 36
+  Port binded		Connected: 1
+  1001 request header sent		 Packet length: 33 (10), 21 (16).
+  1001 request data sent 		 Packet length: 226 (10), e2 (16).
+  1007 message received from 23.19.58.16:18080  Data length: 10 
+  1001 message received from 23.19.58.16:18080  Data length: 15999 
+  2002 message received from 23.19.58.16:18080  Data length: 3456 
+  2002 message received from 23.19.58.16:18080      tkop: 6
   ```
 * ```logbst```: shows the binary search tree (main data-structure) in-order traversal 
   ```
-  
+  Dept.	  IPv4 		Port   Stat  Lon     	   Lat    	 TrKop.
+   7      1.15.60.121 	18080  1   113.722000	  34.773201	   0
+   6        1.15.64.2 	18080  1   113.722000	  34.773201	   2
+   8      2.12.78.124 	18080  1    -0.777700	  47.784901	   0
+   9      2.12.171.61 	18080  3     0.000000	   0.000000	  -1
+   7    2.205.127.140 	18080  3     9.152100	  48.734901	  -1
+   5       3.8.16.228 	18080  1    -0.093000	  51.516399	   0
+   8        3.9.38.10 	18080  3    -0.093000	  51.516399	  -1
+   9      3.93.33.238 	18080  1   -77.472900	  39.048100	   2
+   7      3.93.37.167 	18080  1   -77.472900	  39.048100	   0
+  10      3.101.61.98 	18080  0  -121.787102	  37.180698	   3
   ```
 * ```mapinfo```: shows the nodes that were added on the map before the end of execution
   ```
-  
+  Coords(lon=4.8995, lat=52.382401): Amsterdam { 5.79.127.145 6   23.111.236.156 0   23.111.236.196 0   89.38.98.118 0   93.158.203.123 0   94.23.147.238 0   193.34.167.241 0   193.34.166.96 0   212.32.255.56 0   81.171.18.57 0   185.145.130.50 0   185.252.79.75 0   23.111.236.92 8   37.1.207.149 0   }
+  Coords(lon=105.893898, lat=29.3538): Yongchuan { 14.105.104.165 2   }
+  Coords(lon=151.200195, lat=-33.8592): Sydney { 13.239.26.243 6   110.174.52.4 0   110.145.79.130 0   139.180.168.29 0   159.196.123.97 0   203.129.23.7 0   220.233.178.100 0   61.68.40.124 0   121.216.0.15 0   159.196.115.200 0   159.196.117.241 0   180.150.9.143 0   110.150.85.46 0   172.195.91.217 0   61.8.121.46 0   61.69.209.30 0   }
+  Coords(lon=72.885597, lat=19.0748): Mumbai { 13.126.64.166 2   172.105.53.94 0   13.232.158.49 2   192.46.211.95 0   }
+  Coords(lon=-122.504402, lat=45.549599): Portland { 24.21.94.251 8   }
   ```
 
 
