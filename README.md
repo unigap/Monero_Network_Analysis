@@ -80,7 +80,7 @@ $ ./main <IP> <PORT> <time12>
 
 > - IP: destination monero node IP address
 > - PORT: destination node's port number (natural int), often number 18080
-> - time12: time limit to request 1001 and 1003 messages (1^st and 2^nd threads 1 and 2) and then receive transactions (thread 4) from those nodes
+> - time12: time limit to request 1001 and 1003 messages (1<sup>st</sup> and 2<sup>nd</sup> threads) and then start receiving transactions (with 4<sup>th</sup> thread) from those nodes that were available at the moment.
  
 ### Secondary program (Python)
 
@@ -93,7 +93,7 @@ $ ./main <IP> <PORT> <time12>
 >     * ```a```: add node on the map
 >     * ```r```: remove node from the map
 >     * ```t```: add transacts to an existing node
->     * ```q```: quit the execution
+>     * ```**q**```: quit the execution (no need for arguments)
 > - Longitude: value between -180.0 and 180.0
 > - Latitude: value between -90.0 and 90.0
 > - IP: IP address of the node
