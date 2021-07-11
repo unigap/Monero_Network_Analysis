@@ -39,7 +39,7 @@ The first step was to execute ```monerod``` and check the TCP communication with
 Example:
 ```
 $ sh init.sh 90 eth0
-tcpflow: listening on enp3s0f1
+tcpflow: listening on eth0
 Terminating tcpflow process
 Processing monero packets...  Output: em<i> & comm_em<i> 
 Extracting IPs from data...   Output: ipak 
