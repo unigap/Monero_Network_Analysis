@@ -138,7 +138,7 @@ Destination node can be selected from the following Monero seed-nodes list:
 ```
 ```
 $ ./main 212.83.175.67 18080 10 | python3 locate.py    # 10 seconds to collect nodes from Monero P2P network + locate them on map
-                                                      # and then receive transactions from available nodes  + locate them on map
+                                                       # and then receive transactions from available nodes  + locate them on map
 Reading coordinates...
 <Method> <Longitude> <Latitude> <IP> <City/Tr>:
 Receiving transactions...
