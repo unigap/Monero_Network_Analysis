@@ -197,7 +197,7 @@ Each process stores execution steps and execution errors in a file:
   Port binded		 Connected: 1
   1003 request header sent		 Packet length: 33 (10), 21 (16).
   1003 request data sent 			 Packet length: 10 (10), 0a (16).
-  1003 response received 			 Packet length: 38 (10), 26 (16)  '212.83.175.67_1003' temporary file.
+  1003 response received 			 Packet length: 38 (10), 26 (16)    '212.83.175.67_1003' temporary file.
   ```
 * ```logmap```: shows the coordinates of each node
   ```
