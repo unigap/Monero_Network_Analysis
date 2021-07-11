@@ -52,7 +52,7 @@ Getting geolocation of IPs... Output: iplocs
  Execution of this program initializes **monero peer-to-peer network analisys**:
  *   Main thread: Initialization of all threads and catch two signals due to exit: ```SIGINT``` and ```SIGTERM```
 
-     When one of those signal is received (also executing ```terminate.sh```), the main program writes Monero node list (binary search tree) ⟶ ```logbst``` file (information of each node) and terminate.
+     When one of those signal is received (also executing ```terminate.sh``` script), the main program writes Monero node list (stored in a binary search tree) ⟶ ```logbst``` file (information of each node) and terminate.
      
      - 1<sup>st</sup> thread: Request recursively the peer list of each Monero node with 1001 message (+ or - 250 [IP, Port]) and store the information received on binary search tree.
 
