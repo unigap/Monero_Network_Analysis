@@ -181,9 +181,9 @@ Each process stores execution steps and execution errors in a file:
 
 * ```log1001```: shows the handshake requests and responses (for each node)
   ```
-  Creating socket... 	      Destination node: 212.83.175.67 18080
+  Creating socket... 	    Destination node: 212.83.175.67 18080
   Socket descriptor: 8
-  Port binded		            Connected
+  Port binded		          Connected
   1001 request header sent		       Packet length: 33 (10),    21 (16).
   1001 request data sent 			       Packet length: 226 (10),   e2 (16).
   1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
@@ -200,13 +200,25 @@ Each process stores execution steps and execution errors in a file:
   1003 response received 			 Packet length: 38 (10), 26 (16)		 '212.83.175.67_1003' temporary file.
   ```
 * ```logmap```: shows the coordinates of each node
->
+  ```
+  Getting coordinates... Node: 212.83.175.67 18080
+  In order to obtain location information run the following script: 'sh get_maxmind.sh'
+  The command to be executed in the pipe: geoiplookup -f ./geoip/maxmind4.dat 212.83.175.67 | cut -d ',' -f 5,7-8 | awk -F ',' '{print $3, $2, $1}' | sed s/,//g 
+  Pipe opened.
+  Lon: 2.338700	Lat: 48.858200	City:  N/A
+  ```
 * ```log2002_<id>```: shows the transactions received from each node and sub-thread (with id)
->
+  ```
+  
+  ```
 * ```logbst```: shows the binary search tree (main data-structure) in-order traversal 
->
+  ```
+  
+  ```
 * ```mapinfo```: shows the nodes that were added on the map before the end of execution
-
+  ```
+  
+  ```
 
 
 ## Output images
