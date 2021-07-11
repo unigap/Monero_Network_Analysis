@@ -12,6 +12,7 @@
   - [Dependencies](#dependencies)
   - [Log files](#log-files)
   - [Output images](#output-images)
+  - [Conclusion](#conclusion)
   - [Related sites](#related-sites)
 
 
@@ -30,7 +31,7 @@ See also the documentation of the application level protocol that allows **peer-
 
 ## Educational project using Levin Protocol
 
-With this project I intend to analyze Monero P2P network; cryptocurrency and privacy techniques, network programming and application layer protocols. Moreover, I want to contribute to the general knowledge about Monero and its great features.
+With this project I intend to analyze Monero P2P network; cryptocurrency and privacy techniques, and application layer protocols using network programming (in the C programming language). Moreover, I want to contribute to the general knowledge about Monero and its great features.
 
 ### Reverse engineering
 
@@ -181,6 +182,9 @@ $ ./main 212.83.175.67 18080 10 | python locate.py
 
 <img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 1">
 <img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 2">
+
+## Conclusion
+
 
 
 ## Related sites
