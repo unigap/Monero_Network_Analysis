@@ -43,7 +43,6 @@ The first step was to execute ```monerod``` and check the TCP communication with
 Example:
 ```sh
 $ sh init.sh 90 eth0          # Listen for 90 seconds the Monero P2P communication (port 18080), specifying the interface eth0 (by default wi-fi interface)
-``` ```
 tcpflow: listening on eth0
 Terminating tcpflow process
 Processing monero packets...  Output: em<i> & comm_em<i> 
@@ -52,7 +51,7 @@ Getting geolocation of IPs... Output: iplocs
 ```
 
 We can analyze all this files and also we can run the following command to know **which Levin messages** (identified with command number) were received during the tcpflow execution:
-```sh
+```bash
 $ grep -E "Command number:" comm_em* | cut -d ':' -f 3 | sort | uniq
 1001 
 1002 
