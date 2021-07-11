@@ -282,7 +282,7 @@ Each process stores execution steps and execution errors in a file:
 
 ## Donations
 
-If you enjoy with this project and want to support this open source project, you can donate a small amount to me. 
+If you enjoyed this project and want to support this open source project, you can donate a small amount to me. 
 
 Monero donation address: ```4BDFKWqasRBSPWhRxuRbtpKD4dubfi3htXtdzQQHvfDE8Jjgp6cqHN9gRBDncfU9G2FPeRz3wx35TCmJKkv8Ma8SKLyXmUb```
 
