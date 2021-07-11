@@ -180,9 +180,21 @@ $ ./main 212.83.175.67 18080 10 | python locate.py
 Each process stores execution steps and execution errors in a file:
 
 * ```log1001```: shows the handshake requests and responses (for each node)
-> 
+> Creating socket... 	      Destination node: 212.83.175.67 18080
+> Socket descriptor: 8
+> Port binded		            Connected
+> 1001 request header sent		       Packet length: 33 (10),    21 (16).
+> 1001 request data sent 			       Packet length: 226 (10),   e2 (16).
+> 1007 request received (ignore) 		 Packet length: 10 (10),    0a (16).
+> 1001 response header received 		 Packet length: 33 (10),    21 (16).
+> Receiving 1001 response data... 	 Packet length: 15494 (10), 3c86 (16)		 '212.83.175.67' temporary file.
 * ```log1003```: shows the ping requests and responses (for each node)
->
+> Creating socket... 	 Destination node: 212.83.175.67 18080
+> Socket descriptor: 9
+> Port binded		 Connected: 1
+> 1003 request header sent		 Packet length: 33 (10), 21 (16).
+> 1003 request data sent 			 Packet length: 10 (10), 0a (16).
+> 1003 response received 			 Packet length: 38 (10), 26 (16)		 '212.83.175.67_1003' temporary file.
 * ```logmap```: shows the coordinates of each node
 >
 * ```log2002_<id>```: shows the transactions received from each node and sub-thread (with id)
