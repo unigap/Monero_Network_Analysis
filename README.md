@@ -262,7 +262,7 @@ Each process stores execution steps and execution errors in a file:
    7      3.93.37.167  18080  1   -77.472900	  39.048100	   0
   10      3.101.61.98  18080  0  -121.787102	  37.180698	   3
   ```
-* ```mapinfo```: shows the nodes that were added on the map before the end of execution
+* ```mapinfo```: shows the nodes (IP address and transacts factor) that were added to the map for each location.
   ```
   Coords(lon=4.8995, lat=52.382401):      Amsterdam { 5.79.127.145 6   23.111.236.156 0   23.111.236.196 0   89.38.98.118 0   93.158.203.123 0   94.23.147.238 0   193.34.167.241 0   193.34.166.96 0   212.32.255.56 0   81.171.18.57 0   185.145.130.50 0   185.252.79.75 0   23.111.236.92 8   37.1.207.149 0   }
   Coords(lon=105.893898, lat=29.3538):    Yongchuan { 14.105.104.165 2   }
@@ -275,6 +275,7 @@ Each process stores execution steps and execution errors in a file:
 ## Output images
 
 <img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 1 (svg)">
+[Monero nodes around the world]("../main/imgs/map.svg")
 <img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 2 (png)">
 
 ## Conclusion
