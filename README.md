@@ -229,24 +229,24 @@ Each process stores execution steps and execution errors in a file:
   Lon: 2.338700	Lat: 48.858200	City:  N/A
   ```
 * ```log2002_<id>```: shows the transactions received from each node and sub-thread (with id)
-  ```
-  Socket descriptor: 36
+  ```diff
+  Output file name: 54.201.75.23_2002_5
+  Socket descriptor: 35
   Port binded		Connected: 1
   1001 request header sent		 Packet length: 33 (10), 21 (16).
   1001 request data sent 		 Packet length: 226 (10), e2 (16).
-  1007 message received from 18.158.207.141:18080  Data length: 10 
-  1001 message received from 18.158.207.141:18080  Data length: 16083 
-  Couldn't receive message, length: 0  err: Success
-  [1m[31mErrorea 1. harian: 10
+  Couldn't receive message, length: -1  err: Resource temporarily unavailable
+  Error on 5 thread, code: 10
   
-  Socket descriptor: 36
+  Output file name: 68.53.174.76_2002_5
+  Socket descriptor: 35
   Port binded		Connected: 1
   1001 request header sent		 Packet length: 33 (10), 21 (16).
   1001 request data sent 		 Packet length: 226 (10), e2 (16).
-  1007 message received from 23.19.58.16:18080  Data length: 10 
-  1001 message received from 23.19.58.16:18080  Data length: 15999 
-  2002 message received from 23.19.58.16:18080  Data length: 3456 
-  2002 message received from 23.19.58.16:18080      tkop: 6
+  1007 message received from 68.53.174.76:18080 	 Packet length: 10 
+  1001 message received from 68.53.174.76:18080 	 Packet length: 16073 
+  2002 message received from 68.53.174.76:18080 	 Packet length: 1474 
+  2002 message received from 68.53.174.76:18080      tkop: 2
   ```
 * ```logbst```: shows the binary search tree (main data-structure) in-order traversal 
   ```
