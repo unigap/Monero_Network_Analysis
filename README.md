@@ -228,7 +228,7 @@ Each process stores execution steps and execution errors in a file:
   Pipe opened.
   Lon: 2.338700	Lat: 48.858200	City:  N/A
   ```
-* ```log2002_<id>```: shows the transactions received from each node and sub-thread (with id)
+* ```log2002_<id>```: shows the transactions received from each node and sub-thread (e.g. ```id = 5```)
   ```diff
   Output file name: 54.201.75.23_2002_5
   Socket descriptor: 35
@@ -236,7 +236,7 @@ Each process stores execution steps and execution errors in a file:
   1001 request header sent		 Packet length: 33 (10), 21 (16).
   1001 request data sent 		 Packet length: 226 (10), e2 (16).
   Couldn't receive message, length: -1  err: Resource temporarily unavailable
-  - Error on 5 thread, code: 10
+  Error on thread_5, code: 10
   
   Output file name: 68.53.174.76_2002_5
   Socket descriptor: 35
