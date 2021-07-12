@@ -236,7 +236,7 @@ Each process stores execution steps and execution errors in a file:
   1001 request header sent		 Packet length: 33 (10), 21 (16).
   1001 request data sent 		 Packet length: 226 (10), e2 (16).
   Couldn't receive message, length: -1  err: Resource temporarily unavailable
-  Error on 5 thread, code: 10
+  - Error on 5 thread, code: 10
   
   Output file name: 68.53.174.76_2002_5
   Socket descriptor: 35
