@@ -166,7 +166,7 @@ ax = fig.add_subplot(111)
 ax.set_title("Monero nodes around the world")
 plt.rc('axes', unicode_minus=False)
 
-if len(sys.argv) < 2 or type(inNumber) != float :
+if len(sys.argv) < 2 or type(sys.argv[1]) != float :
 
     # create default map
     m = Basemap(projection='cyl', resolution=None,
