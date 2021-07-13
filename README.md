@@ -107,7 +107,7 @@ $ ./main <IP> <PORT> <time12>
 
 ```locate.py``` program reads the standard input to locate nodes on the map with the following format:
 
-```sh
+```
 <Method> <Longitude> <Latitude> <IP> <City/Tr>
 ```
 > - Method:
