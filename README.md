@@ -287,6 +287,13 @@ Each process stores execution steps and execution errors in a file:
 <img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 2 (png)">-->
 
 
+
+
+
+
+
+
+
 ## Donations
 
 If you enjoyed this project and want to support this open source project, you can donate a small amount to me. 
