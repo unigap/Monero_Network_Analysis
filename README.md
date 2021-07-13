@@ -118,7 +118,7 @@ $ ./main <IP> <PORT> <time12>
 > - Longitude: value between -180.0 and 180.0
 > - Latitude: value between -90.0 and 90.0
 > - IP: IP address of the node
-> - City/Tr: city (with ```a``` and ```r``` methods) or number of transactions (with ```t``` method)
+> - City/Tr: city (with ```a``` and ```r``` methods) or transactions factor (with ```t``` method)
 
 
 ### Execute both using pipe
