@@ -41,8 +41,8 @@ With this project I intend to analyze Monero P2P network; cryptocurrency and pri
 The first step was to execute ```monerod``` and check the TCP communication with ```tcpflow``` and ```hexdump``` as executing the scripts on the folder called 'extract_levin_communication'. This needs superuser privileges and maybe install ```tcpflow``` and ```hexdump``` tools.
 
 Example:
-```sh
-$ sh init.sh 90 eth0          # Listen for 90 seconds the Monero P2P communication (port 18080), specifying the interface eth0 (by default wi-fi interface)``` ```
+```python
+$ sh init.sh 90 eth0          # Listen for 90 seconds the Monero P2P communication (port 18080), specifying the interface eth0 (by default wi-fi interface)
 tcpflow: listening on eth0
 Terminating tcpflow process
 Processing monero packets...  Output: em<i> and comm_em<i> 
