@@ -166,7 +166,13 @@ ax = fig.add_subplot(111)
 ax.set_title("Monero nodes around the world")
 plt.rc('axes', unicode_minus=False)
 
-if len(sys.argv) < 2 or type(sys.argv[1]) != float :
+try:
+    scal = float(sys.argv[1])
+
+except:
+    scal = 0
+
+if len(sys.argv) < 2 or scal == 0 or scal >= 1 :
 
     # create default map
     m = Basemap(projection='cyl', resolution=None,
@@ -185,7 +191,7 @@ else:
                 llcrnrlon=-180, urcrnrlon=180, ax=ax)
     draw_map(m)
 
-    m.bluemarble(scale=float(sys.argv[1]))
+    m.bluemarble(scale=scal)
 
 #m = Basemap(projection='mill', resolution=None,
 #            lat_0=0, lon_0=0)
