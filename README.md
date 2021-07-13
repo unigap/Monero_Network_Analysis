@@ -300,9 +300,7 @@ Each process stores execution steps and execution errors in a file:
 ![Monero nodes around the world 3](../main/imgs/mapa.png "Example of execution 3 (png)")
 
 <!--<img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 1 (svg)">
-<img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 2 (png)">--><br />
-
-
+<img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 2 (png)">-->
 
 
 ## Donations
@@ -312,10 +310,6 @@ If you enjoyed this project and want to support this open source project, you ca
 Monero donation address: ```4BDFKWqasRBSPWhRxuRbtpKD4dubfi3htXtdzQQHvfDE8Jjgp6cqHN9gRBDncfU9G2FPeRz3wx35TCmJKkv8Ma8SKLyXmUb```
 
 Thank you so much!
-<br />
-<br />
-
-
 
 
 ## Related sites
