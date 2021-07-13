@@ -311,7 +311,7 @@ If you enjoyed this project and want to support this open source project, you ca
 
 Monero donation address: ```4BDFKWqasRBSPWhRxuRbtpKD4dubfi3htXtdzQQHvfDE8Jjgp6cqHN9gRBDncfU9G2FPeRz3wx35TCmJKkv8Ma8SKLyXmUb```
 
-Thank you so much!
+Thank you so much!<br />
 
 
 
