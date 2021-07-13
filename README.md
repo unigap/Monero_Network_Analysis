@@ -172,7 +172,7 @@ $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o 
 
 Next we will install dependencies for the Python program (it doesn't matter if it's python or python3):
 
-```
+```perl
 $ sudo apt-get install python3-pip
 $ sudo apt-get install libgeos-dev
 $ sudo apt-get install python3-gi-cairo
