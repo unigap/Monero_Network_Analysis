@@ -191,7 +191,7 @@ $ pip3 install https://github.com/matplotlib/basemap/archive/master.zip     # --
 ```
 <!--$ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip     # this throws an error on virtual env.-->
 
-You can also install dependencies from ```requirements.txt``` file but you will have to manually execute the last two commands of the previous list, and it would be like this:
+You can alternatively install the dependencies from ```requirements.txt``` file but you will have to manually execute the last two commands in the list above, and it would be like this:
 
 ```
 $ pip3 install -r requirements.txt
