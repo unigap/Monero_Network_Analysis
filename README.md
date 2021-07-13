@@ -290,6 +290,12 @@ Each process stores execution steps and execution errors in a file:
   Coords(lon=2.75, lat=36.267502):        Medea     { 41.109.243.124 0   }
   ```
 
+You can move or remove all log files with the Makefile's rules called 'move_logs' and 'remove_logs'; so you can run the following command to remove them:
+
+```
+$ make remove_logs
+```
+
 
 ## Output images
 
@@ -300,13 +306,10 @@ Each process stores execution steps and execution errors in a file:
 
 ![Monero nodes around the world 3](../main/imgs/mapa.png "Example of execution 3 (png)")
 
-<!--<img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 1 (svg)">
-<img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 2 (png)">-->
-
 
 ## Donations
 
-If you enjoyed this project and want to support this open source project, you can donate a small amount to me. 
+If you have enjoyed and want to support this open source project, you can consider making me a small donation.
 
 Monero donation address: ```4BDFKWqasRBSPWhRxuRbtpKD4dubfi3htXtdzQQHvfDE8Jjgp6cqHN9gRBDncfU9G2FPeRz3wx35TCmJKkv8Ma8SKLyXmUb```
 
