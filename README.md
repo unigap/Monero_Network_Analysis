@@ -290,7 +290,7 @@ Each process stores execution steps and execution errors in a file:
   Coords(lon=2.75, lat=36.267502):        Medea     { 41.109.243.124 0   }
   ```
 
-You can move or remove all log files with the Makefile's rules called 'move_logs' and 'remove_logs'; so you can run the following command to remove them:
+You can move (to a folder called logs) or remove all log files with the Makefile's rules called 'move_logs' and 'remove_logs'; so you can run the following command to remove them:
 
 ```
 $ make remove_logs
