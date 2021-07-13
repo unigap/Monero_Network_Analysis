@@ -277,7 +277,9 @@ Each process stores execution steps and execution errors in a file:
 
 ![Monero nodes around the world 1](../main/imgs/map.svg  "Example of execution 1 (svg)")
 
-![Monero nodes around the world 2](../main/imgs/mapa.png "Example of execution 2 (png)")
+![Monero nodes around the world 2](../main/imgs/map1.svg "Example of execution 2 (svg)")
+
+![Monero nodes around the world 3](../main/imgs/mapa.png "Example of execution 3 (png)")
 
 <!--<img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 1 (svg)">
 <img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 2 (png)">-->
