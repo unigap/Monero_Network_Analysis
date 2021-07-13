@@ -37,7 +37,7 @@ With this project I intend to analyze Monero P2P network; cryptocurrency and pri
 
 ### Reverse engineering
 
-The first step was to execute ```monerod``` and check the TCP communication with ```tcpflow``` and ```hexdump``` as executing the scripts on the folder called 'extract_levin_communication'. This needs superuser privileges and maybe install ```tcpflow``` and ```hexdump``` tools.
+The first step was to execute ```monerod``` and check the TCP communication with ```tcpflow``` and ```hexdump``` as executing the scripts on the folder called 'extract_levin_communication'.
 
 Example:
 ```perl
