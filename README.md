@@ -187,13 +187,13 @@ $ pip3 install https://github.com/matplotlib/basemap/archive/master.zip     # --
 
 Now you can test the Python program ```locate.py```:
 
-```
+```perl
 $ python3 locate.py
 $ python3 locate.py 0.5    # with a lower resolution
 ```
 
 Finally, combine the execution of both programs with **pipe**:
-```sh
+```perl
 $ ./main 212.83.175.67 18080 10 | python3 locate.py
 ```
 
