@@ -180,7 +180,8 @@ $ sudo apt-get install libgeos-dev
 $ sudo apt-get install python3-gi-cairo
 $ pip3 install Cython
 $ pip3 install --upgrade pip
-$ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip     # throws an error on virtual env.
+$ pip3 install https://github.com/matplotlib/basemap/archive/master.zip
+$ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip     # this throws an error on virtual env.
 ```
 
 Now you can test the Python program ```locate.py```:
