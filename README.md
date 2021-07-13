@@ -161,13 +161,19 @@ This project is tested on Ubuntu and Debian.
 
 To install all dependencies and start the execution you can follow these steps:
 
-```
+```perl
 $ sudo apt-get install git
 $ sudo apt-get install gcc
 $ sudo apt-get install geoip-bin
 $ git clone https://github.com/unigap/Monero_Network_Analysis
 $ cd Monero_Network_Analysis/src/
 $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
+```
+
+To compile the main program you can also use the Makefile file and type the following command:
+
+```perl
+$ make
 ```
 
 Next we will install dependencies for the Python program (it doesn't matter if it's python or python3):
@@ -185,6 +191,14 @@ $ pip3 install https://github.com/matplotlib/basemap/archive/master.zip     # --
 ```
 <!--$ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip     # this throws an error on virtual env.-->
 
+You can also install dependencies from ```requirements.txt``` file but you will have to manually execute the last two commands of the previous list, and it would be like this:
+
+```perl
+$ pip3 install -r requirements.txt
+$ pip3 install --upgrade pip
+$ pip3 install https://github.com/matplotlib/basemap/archive/master.zip     # --user flag throws an error on virtual env.
+```
+
 Now you can test the Python program ```locate.py```:
 
 ```perl
@@ -193,9 +207,11 @@ $ python3 locate.py 0.5    # with a lower resolution
 ```
 
 Finally, combine the execution of both programs with **pipe**:
+
 ```perl
 $ ./main 212.83.175.67 18080 10 | python3 locate.py
 ```
+
 
 ## Log files
 
@@ -284,7 +300,7 @@ Each process stores execution steps and execution errors in a file:
 ![Monero nodes around the world 3](../main/imgs/mapa.png "Example of execution 3 (png)")
 
 <!--<img src="../main/imgs/map.svg" alt="Monero nodes around the world - Example of execution 1 (svg)">
-<img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 2 (png)">-->
+<img src="../main/imgs/mapa.png" alt="Monero nodes around the world - Example of execution 2 (png)">--><br />
 
 
 
