@@ -156,7 +156,7 @@ $ sh terminate.sh
 
 ## Dependencies
 
-This project is tested on Ubuntu and Debian
+This project is tested on Ubuntu and Debian.
 
 To install all dependencies and start the execution you can follow these steps:
 
@@ -176,11 +176,11 @@ $ sudo apt-get install python3-pip
 $ pip3 install numpy
 $ pip3 install pandas
 $ pip3 install matplotlib
-$ pip3 install libgeos-dev
+$ sudo apt-get install libgeos-dev
 $ sudo apt-get install python3-gi-cairo
 $ pip3 install Cython
 $ pip3 install --upgrade pip
-$ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip
+$ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip     # throws an error on virtual env.
 ```
 
 Now you can test the Python program ```locate.py```:
