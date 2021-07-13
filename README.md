@@ -161,7 +161,7 @@ This project is tested on Ubuntu and Debian.
 
 To install all dependencies and start the execution you can follow these steps:
 
-```perl
+```
 $ sudo apt-get install git
 $ sudo apt-get install gcc
 $ sudo apt-get install geoip-bin
@@ -193,10 +193,10 @@ $ pip3 install https://github.com/matplotlib/basemap/archive/master.zip     # --
 
 You can also install dependencies from ```requirements.txt``` file but you will have to manually execute the last two commands of the previous list, and it would be like this:
 
-```perl
+```
 $ pip3 install -r requirements.txt
 $ pip3 install --upgrade pip
-$ pip3 install https://github.com/matplotlib/basemap/archive/master.zip     # --user flag throws an error on virtual env.
+$ pip3 install https://github.com/matplotlib/basemap/archive/master.zip
 ```
 
 Now you can test the Python program ```locate.py```:
