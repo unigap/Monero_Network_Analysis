@@ -4,16 +4,16 @@ main: main.c bst.c request1001.c check1003.c location.c recv2002.c
 	gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
 
 clean:
-	rm -f main [0-9]* *.o         # don't remove log files
+	rm -f main [0-9]* *.o              # don't remove log files
 
 remove_o:
-	rm -f *.o		      # remove only .o files
+	rm -f *.o		           # remove only .o files
 
 move_logs:
-	mkdir logs && mv log* ./logs  # move log files
+	mkdir -p flogs && mv log* ./flogs  # move log files
 
 remove_logs:
-	rm -f log*                    # remove log files
+	rm -f log*                         # remove log files
 
 # or
 #main: main.o bst.o request1001.o check1003.o location.o recv2002.o
