@@ -307,7 +307,7 @@ Thank you so much!
 
 [Monero Website](https://www.getmonero.org/)
 
-[Monero Github project](https://github.com/monero-project/monero)
+[Monero project on Github](https://github.com/monero-project/monero)
 
 [Monero seed nodes](https://community.xmr.to/xmr-seed-nodes)
 
