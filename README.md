@@ -41,7 +41,7 @@ With this project I intend to analyze Monero P2P network; cryptocurrency and pri
 The first step was to execute ```monerod``` and check the TCP communication with ```tcpflow``` and ```hexdump``` as executing the scripts on the folder called 'extract_levin_communication'. This needs superuser privileges and maybe install ```tcpflow``` and ```hexdump``` tools.
 
 Example:
-```zsh
+```perl
 $ sh init.sh 90 eth0          # Listen for 90 seconds the Monero P2P communication (port 18080), specifying the interface eth0 (by default wi-fi interface)
 tcpflow: listening on eth0
 Terminating tcpflow process
@@ -51,7 +51,7 @@ Getting geolocation of IPs... Output: iplocs
 ```
 
 We can analyze all this files and also we can run the following command to know **which Levin messages** (identified with command number) were received during the tcpflow execution:
-```sh
+```
 $ grep -E "Command number:" comm_em* | cut -d ':' -f 3 | sort | uniq
 1001 
 1002 
@@ -88,7 +88,7 @@ In this way, we can see the sending process performed in each case and use it fo
        Record events ⟶ ```log2002``` file
 
  * Compile:
-```sh
+```
 $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
 ```
 
@@ -125,7 +125,7 @@ $ ./main <IP> <PORT> <time12>
 Combine the execution of the ```main``` program with the Python program to locate the discovered nodes on the map (```locate.py```).
 
 Some examples of execution: 
-```sh
+```
 $ ./main    # Print help message
 Destination IP, port and time limit for requests (seg) are necessary to initialize the execution!
 Destination node can be selected from the following Monero seed-nodes list: 
@@ -138,7 +138,7 @@ Destination node can be selected from the following Monero seed-nodes list:
   - 212.83.172.165 18080
   - 212.83.175.67 18080
 ```
-```sh
+```
 $ ./main 212.83.175.67 18080 10 | python3 locate.py    # 10 seconds to collect nodes from Monero P2P network + locate them on map
                                                        # and then receive transactions from available nodes  + locate them on map
 Reading coordinates...
@@ -160,7 +160,7 @@ This project is tested on Ubuntu and Debian.
 
 To install all dependencies and start the execution you can follow these steps:
 
-```sh
+```
 $ sudo apt-get install git
 $ sudo apt-get install gcc
 $ sudo apt-get install geoip-bin
@@ -171,7 +171,7 @@ $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o 
 
 Next we will install dependencies for the Python program (it doesn't matter if it's python or python3):
 
-```sh
+```
 $ sudo apt-get install python3-pip
 $ pip3 install numpy
 $ pip3 install pandas
@@ -185,7 +185,7 @@ $ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip  
 
 Now you can test the Python program ```locate.py```:
 
-```sh
+```
 $ python3 locate.py
 $ python3 locate.py 0.5    # with a lower resolution
 ```
