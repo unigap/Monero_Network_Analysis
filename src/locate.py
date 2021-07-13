@@ -18,7 +18,7 @@ from typing import NamedTuple
 #!#! Execute: python locate.py [0-1] # if we want a lower resolution of the map, pass argument between 0 and 1 (float)
 # We combine the execution of the main program with this program (pipe)
 # ./main 212.83.175.67 18080 10 | python locate.py
-# ./main 212.83.175.67 18080 10 | python locate.py 0.3
+# ./main 212.83.175.67 18080 10 | python locate.py 0.5
 
 
 # Data-structure definition
