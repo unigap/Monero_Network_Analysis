@@ -92,6 +92,8 @@ In this way, we can see the sending process performed in each case and use it fo
 $ gcc main.c bst.c request1001.c check1003.c location.c recv2002.c -lpthread -o main
 ```
 
+It's possible to use the Makefile to compile the program typing ```make``` on the terminal (inside the src folder of this project).
+
  * Run:     
 ```
 $ ./main <IP> <PORT> <time12>
@@ -173,16 +175,16 @@ Next we will install dependencies for the Python program (it doesn't matter if i
 
 ```
 $ sudo apt-get install python3-pip
+$ sudo apt-get install libgeos-dev
+$ sudo apt-get install python3-gi-cairo
 $ pip3 install numpy
 $ pip3 install pandas
 $ pip3 install matplotlib
-$ sudo apt-get install libgeos-dev
-$ sudo apt-get install python3-gi-cairo
 $ pip3 install Cython
 $ pip3 install --upgrade pip
-$ pip3 install https://github.com/matplotlib/basemap/archive/master.zip
-$ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip     # this throws an error on virtual env.
+$ pip3 install https://github.com/matplotlib/basemap/archive/master.zip     # --user flag throws an error on virtual env.
 ```
+<!--$ pip3 install --user https://github.com/matplotlib/basemap/archive/master.zip     # this throws an error on virtual env.-->
 
 Now you can test the Python program ```locate.py```:
 
