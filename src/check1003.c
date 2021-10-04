@@ -63,10 +63,10 @@ void * hautatu_knodoa(struct bst_ip *un, FILE *log, time_t denb) {
 			if(err > 0) {
 				fprintf(log, B_RED"Error: %ld\n"RESET, err);
 				fflush(log);
-                pthread_mutex_lock(&(un->lock));   // blokeakorra (wait-ekin kontrolatu daiteke)
+                		pthread_mutex_lock(&(un->lock));   // blokeakorra (wait-ekin kontrolatu daiteke)
 				if(un->stat < 3) // ezabatuta ez badago
-                	un->stat = 2; // ezin nodoarekin konektatu -> mapatik ezabatu
-                pthread_mutex_unlock(&(un->lock)); // askatu
+                			un->stat = 2; // ezin nodoarekin konektatu -> mapatik ezabatu
+                		pthread_mutex_unlock(&(un->lock)); // askatu
 				close(s1); // errorea gertatu denean socket-a itxi
 			}
 			//stat = konprobatu_ping(inet_ntoa(une->nodip), une->port, log);
@@ -122,11 +122,11 @@ void * konprobatu_ping(char *target, int port, FILE *log) {
         struct sockaddr_in  dest;
 
 	if(inet_addr(target) == -1) // is not IP
-    {
+    	{
 		fprintf(log, "Bad IP");
 		fflush(log);
 		return (void *) 2;
-    }
+    	}
 
 	if(port == 0) {
 		fprintf(log, "Bad port number");
@@ -134,11 +134,11 @@ void * konprobatu_ping(char *target, int port, FILE *log) {
 		return (void *) 2;
 	}
 
-    dest_ip.s_addr = inet_addr( target );
+	dest_ip.s_addr = inet_addr( target );
 
 	//sleep(1);
 	//usleep(30000);
-// aurretik konprobatzen da
+	// aurretik konprobatzen da
 /*	pthread_mutex_lock(&(root->lock));
 	while(statra_lortu(dest_ip) < 1) {
 		//printf("Itxaroten..."); // behin bakarrik inprimatuko du
@@ -147,17 +147,17 @@ void * konprobatu_ping(char *target, int port, FILE *log) {
 	}
 	pthread_mutex_unlock(&(root->lock));
 */
-    memset (datagram, 0, 329);     /* zero out the buffer */
-    memset (datagram1, 0, 266);    /* zero out the buffer */
+	memset (datagram, 0, 329);     /* zero out the buffer */
+	memset (datagram1, 0, 266);    /* zero out the buffer */
 
 	// Fill in the Levin Header (PING request)
-    lvh->sign = 0x0101010101012101;     // 8 bytes
-    lvh->length = 0x0a;                 // 8 bytes
-    lvh->exp_resp = 0x01;               // 1 byte request
-    lvh->comm_cod = htonl(0xeb030000);  // 4 bytes
-    lvh->retn_cod = htonl(0x01000000);  // 4 bytes (request!!! DOKU+)
-    lvh->reserved = htonl(0x01000000);  // 4 bytes
-    lvh->endchars = htonl(0x01000000);  // 4 bytes
+	lvh->sign = 0x0101010101012101;     // 8 bytes
+	lvh->length = 0x0a;                 // 8 bytes
+	lvh->exp_resp = 0x01;               // 1 byte request
+	lvh->comm_cod = htonl(0xeb030000);  // 4 bytes
+	lvh->retn_cod = htonl(0x01000000);  // 4 bytes (request!!! DOKU+)
+	lvh->reserved = htonl(0x01000000);  // 4 bytes
+	lvh->endchars = htonl(0x01000000);  // 4 bytes
 
 	// Levin Data/Payload
 	unsigned char datt[10] = {0x01, 0x11, 0x01, 0x01, 0x01, 0x01, 0x02, 0x01, 0x01, 0x00};
@@ -165,24 +165,24 @@ void * konprobatu_ping(char *target, int port, FILE *log) {
 
 	int i;
 
-    // Makina honen socket-aren informazioa zehaztu (portua: 38080)
-    struct sockaddr_in my_addr;
-    my_addr.sin_family = AF_INET;
-    my_addr.sin_addr.s_addr = INADDR_ANY;
-    my_addr.sin_port = htons(38080);
+	// Makina honen socket-aren informazioa zehaztu (portua: 38080)
+	struct sockaddr_in my_addr;
+	my_addr.sin_family = AF_INET;
+	my_addr.sin_addr.s_addr = INADDR_ANY;
+	my_addr.sin_port = htons(38080);
 
-    if (bind(s1, (struct sockaddr*) &my_addr, sizeof(my_addr)) == 0) {
-        fprintf(log,"Port binded\t\t");
-    }
-    else {
-        fprintf(log,"Couldn't bind port\n");
-        fflush(log);
-    }
+	if (bind(s1, (struct sockaddr*) &my_addr, sizeof(my_addr)) == 0) {
+		fprintf(log,"Port binded\t\t");
+	}
+	else {
+		fprintf(log,"Couldn't bind port\n");
+		fflush(log);
+	}
 
 	// helburuko nodoari buruzko informazioa bete
 	dest.sin_family = AF_INET;
 	dest.sin_addr.s_addr = dest_ip.s_addr;
-    dest.sin_port = htons( port );
+	dest.sin_port = htons( port );
 
 /*	// 3-way handshake (SYN-ACK)
 	if(connect(s1, (struct sockaddr *)&dest, sizeof(struct sockaddr)) < 0){
@@ -193,29 +193,29 @@ void * konprobatu_ping(char *target, int port, FILE *log) {
 	}
 */
 	// segundu 1 eman konektatzeko
-    int kod = connect_with_timeout(s1, (struct sockaddr *)&dest, sizeof(struct sockaddr), 1000);
+	int kod = connect_with_timeout(s1, (struct sockaddr *)&dest, sizeof(struct sockaddr), 1000);
 
-    if(kod >= 0){
-        fprintf(log, " Connected: %d\n", kod);
-        fflush(log);
-    }
-    else {
-        fprintf(log, "Couldn't connect: %d\n", kod);
-        fflush(log);
-        return (void *) 3;
-    }
+	if(kod >= 0){
+		fprintf(log, " Connected: %d\n", kod);
+		fflush(log);
+	}
+	else {
+		fprintf(log, "Couldn't connect: %d\n", kod);
+		fflush(log);
+		return (void *) 3;
+	}
 
-    // Send the Levin PING (1003) request header packet
-    int sizesend = sizeof(struct levhdr);
-    if ( sendto (s1, datagram, sizeof(struct levhdr) , 0 , (struct sockaddr *) &dest, sizeof (dest)) < 0)
-    {
+	// Send the Levin PING (1003) request header packet
+	int sizesend = sizeof(struct levhdr);
+	if ( sendto (s1, datagram, sizeof(struct levhdr) , 0 , (struct sockaddr *) &dest, sizeof (dest)) < 0)
+	{
 		fprintf (log, "Couldn't send 1003 header. Error number: %d  Error message: %s \n" , errno , strerror(errno));
-    	fflush(log);
+		fflush(log);
 		return (void *) 5;
-    }
+	}
 
-    char * m = inet_ntoa(dest.sin_addr);
-    fprintf(log, "1003 request header sent\t\t Packet length: %d (10), %02x (16).\n", sizesend, sizesend);
+	char * m = inet_ntoa(dest.sin_addr);
+	fprintf(log, "1003 request header sent\t\t Packet length: %d (10), %02x (16).\n", sizesend, sizesend);
 	fflush(log);
 
 	sizesend = sizeof(struct data1003);
@@ -230,7 +230,7 @@ void * konprobatu_ping(char *target, int port, FILE *log) {
 	//m = inet_ntoa(dest.sin_addr);
 	fprintf(log, "1003 request data sent \t\t\t Packet length: %d (10), %02x (16).\n", sizesend, sizesend);
 	fflush(log);
-    //printf("==========================================================================\n");
+	//printf("==========================================================================\n");
 
 
 	// RECV
